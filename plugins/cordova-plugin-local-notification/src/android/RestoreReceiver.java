@@ -44,39 +44,32 @@ public class RestoreReceiver extends AbstractRestoreReceiver {
     /**
      * Called when a local notification need to be restored.
      *
-     * @param request Set of notification options.
-     * @param toast   Wrapper around the local notification.
+     * @param notification
+     *      Wrapper around the local notification
      */
     @Override
-    public void onRestore (Request request, Notification toast) {
-        Date date     = request.getTriggerDate();
-        boolean after = date != null && date.after(new Date());
-
-        if (!after && toast.isHighPrio()) {
-            toast.show();
+    public void onRestore (Notification notification) {
+        if (notification.isScheduled()) {
+            notification.schedule();
         } else {
-            toast.clear();
-        }
-
-        Context ctx = toast.getContext();
-        Manager mgr = Manager.getInstance(ctx);
-
-        if (after || toast.isRepeating()) {
-            mgr.schedule(request, TriggerReceiver.class);
+            notification.cancel();
         }
     }
 
     /**
      * Build notification specified by options.
      *
-     * @param builder Notification builder.
+     * @param builder
+     *      Notification builder
      */
     @Override
     public Notification buildNotification (Builder builder) {
         return builder
-                .setClickActivity(ClickReceiver.class)
+                .setTriggerReceiver(TriggerReceiver.class)
                 .setClearReceiver(ClearReceiver.class)
+                .setClickActivity(ClickActivity.class)
                 .build();
     }
 
 }
+
