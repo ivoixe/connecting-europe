@@ -1687,6 +1687,7 @@ function ver_notificacion(){
                 priority:1,
                 foreground: true,
                 badge:1,
+                every: "minute",
                 wakeup: true,
                 vibrate: true
             });

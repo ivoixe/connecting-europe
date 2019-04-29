@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/plugin.xml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Builder.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Builder.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Notification.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Notification.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Options.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Options.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" />
+      <change beforePath="$PROJECT_DIR$/www/js/funciones.js" afterPath="$PROJECT_DIR$/www/js/funciones.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +19,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="1694" column="0" lean-forward="true" selection-start-line="1694" selection-start-column="0" selection-end-line="1694" selection-end-column="0" />
+            <state relative-caret-position="338">
+              <caret line="1689" column="32" lean-forward="true" selection-start-line="1689" selection-start-column="32" selection-end-line="1689" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -58,13 +53,16 @@
       <find>isHighPrio</find>
       <find>getPrio</find>
       <find>n getTriggerDate</find>
-      <find>ver_n</find>
       <find>import android.os.UserManager;</find>
       <find>EXTRA_ID</find>
       <find>appla</find>
       <find>de.appplant</find>
       <find>LocalNotification.java</find>
       <find>exports._defaults</find>
+      <find>ver_n</find>
+      <find>reboo</find>
+      <find>startOnBoot</find>
+      <find>reb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,12 +161,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556529220237</updated>
-      <workItem from="1556529221941" duration="10162000" />
+      <workItem from="1556529221941" duration="11316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10162000" />
+    <option name="totallyTimeSpent" value="11316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
@@ -301,10 +299,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2075">
+            <caret line="219" column="77" lean-forward="true" selection-start-line="219" selection-start-column="77" selection-end-line="219" selection-end-column="77" />
+            <folding>
+              <marker date="1554965826000" expanded="true" signature="4614:4788" ph="..." />
+              <marker date="1554965826000" expanded="true" signature="6572:7351" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="6692:6978" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="6755:6944" ph="//..." />
+              <marker date="1554965826000" expanded="true" signature="7021:7078" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7141:7347" ph="{...}" />
+              <marker date="1554965826000" expanded="false" signature="7400:7492" ph="..." />
+              <marker date="1554965826000" expanded="true" signature="7505:7560" ph="{&quot;selector&quot;: 'page-home'...}" />
+              <marker date="1554965826000" expanded="true" signature="7584:7726" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7746:8602" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7887:8194" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7957:8154" ph="//..." />
+              <marker date="1554965826000" expanded="true" signature="8237:8300" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="8364:8588" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1694" column="0" lean-forward="true" selection-start-line="1694" selection-start-column="0" selection-end-line="1694" selection-end-column="0" />
+        <state relative-caret-position="338">
+          <caret line="1689" column="32" lean-forward="true" selection-start-line="1689" selection-start-column="32" selection-end-line="1689" selection-end-column="32" />
           <folding />
         </state>
       </provider>
