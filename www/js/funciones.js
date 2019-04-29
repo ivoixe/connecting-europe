@@ -1684,9 +1684,9 @@ function ver_notificacion(){
                     at: dtTodap
                 },
                 text: "Hora de fichar" + item.horario_entrada,
+                priority:1,
                 foreground: true,
                 badge:1,
-                priority:1,
                 wakeup: true,
                 vibrate: true
             });
@@ -1700,7 +1700,7 @@ function ver_notificacion(){
             alert("No permission");
 // If app doesnt have permission request it
             cordova.plugin.notification.local.registerPermission(function (granted) {
-                console.warn("Ask for permission");
+                alert("Ask for permission");
                 if( granted == true ) {
                     alert("Permission accepted");
 

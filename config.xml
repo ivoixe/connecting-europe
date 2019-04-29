@@ -108,4 +108,5 @@
     </plugin>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
     <plugin name="cordova-plugin-local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="~0.8.5" />
 </widget>
