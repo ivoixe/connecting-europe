@@ -1702,7 +1702,7 @@ function ver_notificacion(){
             cordova.plugin.notification.local.registerPermission(function (granted) {
                 console.warn("Ask for permission");
                 if( granted == true ) {
-                    console.warn("Permission accepted");
+                    alert("Permission accepted");
 
                 } else {
                     alert("We need permission to show you notifications");
@@ -1732,7 +1732,8 @@ function ver_notificacion(){
 
             try{
 
-                cordova.plugins.notification.local.schedule(localNotificationsArray);
+                cordova.plugins.notification.local.add(localNotificationsArray);
+               // cordova.plugins.notification.local.schedule(localNotificationsArray);
 
             } catch (e) {
 
