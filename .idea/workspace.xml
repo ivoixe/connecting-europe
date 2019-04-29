@@ -1,355 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/plugin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/src/ios/AppDelegate+APPAppEvent.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/src/ios/CDVPlugin+APPAppEvent.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/.appveyor.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/.eslintrc.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/CONTRIBUTING.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/NOTICE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/RELEASENOTES.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/de/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/de/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/es/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/es/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/fr/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/fr/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/it/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/it/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/ja/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/ja/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/ko/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/ko/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/pl/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/pl/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/ru/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/zh/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/doc/zh/index.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/plugin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/android/Device.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/browser/DeviceProxy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/ios/CDVDevice.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/osx/CDVDevice.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/windows/DeviceProxy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/tests/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/tests/plugin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/tests/tests.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/types/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/www/device.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/ClickActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/AbstractTriggerReceiver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/Builder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/ClickActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/Manager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/Notification.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/Options.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/TriggerReceiver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotification.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotification.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotificationOptions.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/APPLocalNotificationOptions.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/APPLocalNotification.ios9.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/APPLocalNotification.ios9.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/APPLocalNotificationOptions.ios9.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/UIApplication+APPLocalNotification.ios9.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/UIApplication+APPLocalNotification.ios9.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/UILocalNotification+APPLocalNotification.ios9.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/UILocalNotification+APPLocalNotification.ios9.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationCore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationProxy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/windows/LocalNotificationUtil.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/www/local-notification-core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/www/local-notification-util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/www/local-notification.js" />
-      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/ISSUE_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/LICENSE" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-chat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-inbox.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-progress.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-reply-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-reply.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/android-stack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/ios-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/ios-basic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/ios-permission.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/images/windows-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/ClearReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/ClearReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/ClickReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/LocalNotification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/RestoreReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/TriggerReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/TriggerReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/build/localnotification.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Builder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Manager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Notification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Options.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Request.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/action/Action.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/action/ActionGroup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClearReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/AbstractClearReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClickReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/receiver/AbstractTriggerReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/trigger/DateTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/trigger/IntervalTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/trigger/MatchTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/util/AssetProvider.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/util/AssetUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/xml/localnotification_provider_paths.xml" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/osx/CDVDevice.h" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPLocalNotification.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPLocalNotification.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationCategory.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/src/ios/AppDelegate+APPAppEvent.h" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationCategory.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationContent.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios9/APPLocalNotificationOptions.ios9.h" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationContent.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationOptions.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/APPNotificationOptions.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/UNNotificationRequest+APPLocalNotification.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/UNNotificationRequest+APPLocalNotification.m" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNNotificationRequest+APPLocalNotification.m" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy.sln" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/ActionGroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Builder.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Manager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Notification.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Options.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Request.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Button.cs" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/ClearReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Every.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/IAction.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Input.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/ProgressBar.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Trigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/DateTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/IntervalTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/MatchTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotificationProxy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotificationProxy.csproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/Properties/AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/ARM/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/ARM/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/x64/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/x64/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/x86/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/windows/lib.UW/x86/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/www/local-notification.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/ISSUE_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/LICENSE" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-chat.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-inbox.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-progress.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-reply-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-reply.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/android-stack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/ios-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/ios-basic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/ios-permission.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/images/windows-actions.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/ClearReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/ClickReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/LocalNotification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/RestoreReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/TriggerReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/build/localnotification.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Builder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Manager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Notification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Options.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Request.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/action/Action.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/action/ActionGroup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClearReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClickReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/AbstractClickActivity.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/AbstractRestoreReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractTriggerReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/DateTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/IntervalTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/MatchTrigger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/util/AssetProvider.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-device/src/ios/CDVDevice.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/util/AssetUtil.java" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/android/notification/AssetUtil.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/xml/localnotification_provider_paths.xml" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/src/ios/APPAppEventDelegate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPLocalNotification.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPLocalNotification.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationCategory.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/node_modules/cordova-plugin-app-event/src/ios/CDVPlugin+APPAppEvent.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationCategory.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationContent.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNMutableNotificationContent+APPLocalNotification.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationContent.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationOptions.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/APPNotificationOptions.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/UNNotificationRequest+APPLocalNotification.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNNotificationRequest+APPLocalNotification.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/UNNotificationRequest+APPLocalNotification.m" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNMutableNotificationContent+APPLocalNotification.m" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.h" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.m" afterPath="$PROJECT_DIR$/node_modules/de.appplant.cordova.plugin.local-notification/src/ios/UNUserNotificationCenter+APPLocalNotification.m" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/.vs/LocalNotificationProxy/v15/.suo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy.sln" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/ActionGroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Builder.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Manager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Notification.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Options.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Request.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Button.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Every.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/IAction.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Input.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/ProgressBar.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Toast/Trigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/DateTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/IntervalTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotification/Trigger/MatchTrigger.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotificationProxy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/LocalNotificationProxy.csproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/LocalNotificationProxy/LocalNotificationProxy/Properties/AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveGroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveImageEnums.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveProgressBar.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveProgressBarBindableProperty.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveProgressBarValue.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveSubgroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveSubgroupEnums.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveTextBindableProperty.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/AdaptiveTextEnums.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/BaseImageHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/BaseTextHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/BindableValues/BindableProgressBarValue.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/BindableValues/BindableString.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveGroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveImageEnums.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveProgressBar.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveSubgroup.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/Elements/Element_AdaptiveText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/IAdaptiveChild.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/IAdaptiveSubgroupChild.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/IBaseImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Adaptive/IBaseText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Badges/BadgeGlyphContent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Badges/BadgeGlyphValue.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Badges/BadgeNumericContent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/ArgumentValidator.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/BaseElement.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/EnumStringAttribute.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/INotificationContent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/LimitedList{T}.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/NotificationContentValidationException.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/NotificationXmlAttributeAttribute.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/NotificationXmlContentAttribute.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/NotificationXmlElementAttribute.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Common/XmlWriterHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/GenerateNugetPackage.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Microsoft.Toolkit.Uwp.Notifications.Shared.projitems" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Microsoft.Toolkit.Uwp.Notifications.Shared.shproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/Elements/Element_Tile.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/Elements/Element_TileBinding.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/Elements/Element_TileVisual.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/Elements/TileElementsCommon.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/ITileBindingContentAdaptiveChild.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/SpecialTemplates/TileBindingContentContact.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/SpecialTemplates/TileBindingContentIconic.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/SpecialTemplates/TileBindingContentPeople.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/SpecialTemplates/TileBindingContentPhotos.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBackgroundImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBasicImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBasicText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBinding.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBindingContentAdaptive.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileBranding.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileCommon.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileContent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileImages.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TilePeekImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileSizeToAdaptiveTemplateConverter.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileTemplateNameV3.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileTextStacking.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Tiles/TileVisual.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_Toast.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastAction.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastActions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastAudio.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastBinding.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastHeader.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastInput.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastSelection.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/Element_ToastVisual.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/Elements/IElement_ToastActivatable.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/IToastActions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/IToastBindingGenericChild.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/IToastButton.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/IToastInput.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastActionsCustom.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastActionsSnoozeAndDismiss.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastActivationOptions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastAudio.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastBindingGeneric.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastButton.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastButtonDismiss.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastButtonSnooze.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastCommon.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastContent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastContextMenuItem.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastGenericAppLogo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastGenericAppLogoEnums.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastGenericAttributionText.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastGenericHeroImage.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastHeader.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastSelectionBox.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastSelectionBoxItem.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastTextBox.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/Toasts/ToastVisual.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.Shared/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Microsoft.Toolkit.Uwp.Notifications.UWP.csproj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Microsoft.Toolkit.Uwp.Notifications.UWP.nuget.props" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Microsoft.Toolkit.Uwp.Notifications.UWP.nuget.targets" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Microsoft.Toolkit.Uwp.Notifications.UWP.ruleset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Properties/AssemblyInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/Properties/Microsoft.Toolkit.Uwp.Notifications.rd.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/project.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/Microsoft.Toolkit.Uwp.Notifications.UWP/project.lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/ARM/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/ARM/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/x64/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/x64/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/x86/LocalNotificationProxy.winmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/windows/lib.UW/x86/Microsoft.Toolkit.Uwp.Notifications.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/www/local-notification.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
-    </list>
+    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -375,8 +27,8 @@
       <file leaf-file-name="ForegroundService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/ForegroundService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="725">
+              <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -404,6 +56,7 @@
       <find>EXTRA_ID</find>
       <find>appla</find>
       <find>de.appplant</find>
+      <find>LocalNotification.java</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -502,12 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556529220237</updated>
-      <workItem from="1556529221941" duration="7864000" />
+      <workItem from="1556529221941" duration="8846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7864000" />
+    <option name="totallyTimeSpent" value="8846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
@@ -642,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/ForegroundService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="725">
+          <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
           <folding />
         </state>
       </provider>
