@@ -1723,42 +1723,21 @@ function ver_notificacion(){
             var isAndroid = false;
 
             if ( device.platform === "Android" ) {
-
                 isAndroid = true;
-
             }
-
-
-
             try{
-
-                cordova.plugins.notification.local.schedule(localNotificationsArray);
-
+               if(localNotificationsArray) cordova.plugins.notification.local.schedule(localNotificationsArray);
             } catch (e) {
-
-
 
                 console.log(e);
 
-
-
                 alert(e);
-
-
-
             }
-
-
-
-
-
-
-
         }
-
-
-
     });
+
+    if(localNotificationsArray) cordova.plugins.notification.local.update(localNotificationsArray);
+
 
 
 
