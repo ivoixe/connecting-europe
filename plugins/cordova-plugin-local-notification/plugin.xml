@@ -40,9 +40,9 @@
 
     <!-- cordova -->
     <engines>
-        <engine name="cordova"         version=">=7.1.0"  />
+        <engine name="cordova"         version=">=3.6.0"  />
         <engine name="cordova-plugman" version=">=4.3.0"  />
-        <engine name="cordova-android" version=">=6.3.0"  />
+        <engine name="cordova-android" version=">=6.0.0"  />
         <engine name="cordova-windows" version=">=4.2.0"  />
         <engine name="android-sdk"     version=">=26" />
         <engine name="apple-ios"       version=">=10.0.0" />
@@ -72,9 +72,6 @@
         <header-file src="src/ios/APPLocalNotification.h" />
         <source-file src="src/ios/APPLocalNotification.m" />
 
-        <header-file src="src/ios/APPNotificationCategory.h" />
-        <source-file src="src/ios/APPNotificationCategory.m" />
-
         <header-file src="src/ios/APPNotificationContent.h" />
         <source-file src="src/ios/APPNotificationContent.m" />
 
@@ -90,8 +87,7 @@
 
     <!-- android -->
     <platform name="android">
-        <preference name="ANDROID_SUPPORT_V4_VERSION" default="26.+" />
-        <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION" />
+        <framework src="com.android.support:support-v4:26.+" />
         <framework src="src/android/build/localnotification.gradle" custom="true" type="gradleReference"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
@@ -119,8 +115,10 @@
                 android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
                 android:exported="false" />
 
-            <service
+            <activity
                 android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
+                android:launchMode="singleInstance"
+                android:theme="@android:style/Theme.Translucent"
                 android:exported="false" />
 
             <receiver

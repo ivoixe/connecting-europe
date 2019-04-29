@@ -80,7 +80,7 @@ public class ClickReceiver extends AbstractClickReceiver {
             return;
 
         try {
-            data.put("text", input.getCharSequence(action));
+            data.put("text", input.getString(action));
         } catch (JSONException e) {
             e.printStackTrace();
         }

@@ -44,7 +44,7 @@ public class RestoreReceiver extends AbstractRestoreReceiver {
     /**
      * Called when a local notification need to be restored.
      *
-     * @param request Set of notification options.f
+     * @param request Set of notification options.
      * @param toast   Wrapper around the local notification.
      */
     @Override
@@ -80,4 +80,3 @@ public class RestoreReceiver extends AbstractRestoreReceiver {
     }
 
 }
-
