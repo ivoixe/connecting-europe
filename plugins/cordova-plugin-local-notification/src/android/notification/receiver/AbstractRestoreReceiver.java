@@ -21,7 +21,7 @@
  * @APPPLANT_LICENSE_HEADER_END@
  */
 
-package de.appplant.cordova.plugin.notification.receiver;
+package cordova.plugin.notification.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -31,11 +31,11 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-import de.appplant.cordova.plugin.notification.Builder;
-import de.appplant.cordova.plugin.notification.Manager;
-import de.appplant.cordova.plugin.notification.Notification;
-import de.appplant.cordova.plugin.notification.Options;
-import de.appplant.cordova.plugin.notification.Request;
+import cordova.plugin.notification.Builder;
+import cordova.plugin.notification.Manager;
+import cordova.plugin.notification.Notification;
+import cordova.plugin.notification.Options;
+import cordova.plugin.notification.Request;
 
 import static android.content.Intent.ACTION_BOOT_COMPLETED;
 import static android.os.Build.VERSION.SDK_INT;

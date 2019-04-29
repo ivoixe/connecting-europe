@@ -19,20 +19,20 @@
  * limitations under the License.
  */
 
-package de.appplant.cordova.plugin.notification.receiver;
+package cordova.plugin.notification.receiver;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import de.appplant.cordova.plugin.notification.Manager;
-import de.appplant.cordova.plugin.notification.Notification;
+import cordova.plugin.notification.Manager;
+import cordova.plugin.notification.Notification;
 
 import static android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT;
 import static android.content.Intent.FLAG_ACTIVITY_SINGLE_TOP;
-import static de.appplant.cordova.plugin.notification.action.Action.CLICK_ACTION_ID;
-import static de.appplant.cordova.plugin.notification.action.Action.EXTRA_ID;
+import static cordova.plugin.notification.action.Action.CLICK_ACTION_ID;
+import static cordova.plugin.notification.action.Action.EXTRA_ID;
 
 /**
  * Abstract content receiver activity for local notifications. Creates the
