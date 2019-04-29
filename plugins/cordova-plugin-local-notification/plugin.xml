@@ -119,6 +119,14 @@
             <receiver
                 android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
                 android:exported="false" />
+				 <receiver
+                android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
+                android:exported="false" >
+                <intent-filter>
+                  
+                    <action android:name="android.intent.action.BOOT_COMPLETED" android:priority="500" />
+                </intent-filter>
+            </receiver>
 
             <receiver
                 android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
@@ -140,6 +148,7 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+			  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
             <uses-permission android:name="android.permission.WAKE_LOCK" />
         </config-file>
 
@@ -184,7 +193,7 @@
             target-dir="src/de/appplant/cordova/plugin/notification/receiver" />
 <!--
         <source-file
-            src="src/android/notification/receiver/AbstractRestoreReceiver.java"
+            src="src/android/notification/receiver/AbstractqReceiver.java"
             target-dir="src/de/appplant/cordova/plugin/notification/receiver" />
  -->
         <source-file

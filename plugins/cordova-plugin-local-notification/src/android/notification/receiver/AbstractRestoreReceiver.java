@@ -21,8 +21,8 @@
  * @APPPLANT_LICENSE_HEADER_END@
  */
 
-package de.appplant.cordova.plugin.notification;
 
+package de.appplant.cordova.plugin.notification.receiver;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -30,6 +30,11 @@ import android.content.Intent;
 import org.json.JSONObject;
 
 import java.util.List;
+import de.appplant.cordova.plugin.notification.Builder;
+import de.appplant.cordova.plugin.notification.Manager;
+import de.appplant.cordova.plugin.notification.Notification;
+import de.appplant.cordova.plugin.notification.Options;
+import de.appplant.cordova.plugin.notification.Request;
 
 /**
  * This class is triggered upon reboot of the device. It needs to re-register
@@ -38,29 +43,31 @@ import java.util.List;
  */
 abstract public class AbstractRestoreReceiver extends BroadcastReceiver {
 
-    /**
+      /**
      * Called on device reboot.
      *
      * @param context
      *      Application context
      * @param intent
      *      Received intent with content data
+     * @param context Application context
+     * @param intent  Received intent with content data
      */
     @Override
     public void onReceive (Context context, Intent intent) {
-        Manager notificationMgr =
-                Manager.getInstance(context);
+    
+           Manager mgr               = Manager.getInstance(context);
+        List<JSONObject> toasts = mgr.getOptions();
 
-        List<JSONObject> options =
-                notificationMgr.getOptions();
+              for (JSONObject data : toasts) {
+            Options options    = new Options(context, data);
+            Request request    = new Request(options);
+            Builder builder    = new Builder(options);
+            Notification toast = buildNotification(builder);
 
-        for (JSONObject data : options) {
-            Builder builder = new Builder(context, data);
-
-            Notification notification =
-                    buildNotification(builder);
-
-            onRestore(notification);
+         
+            onRestore(request, toast);
+        }
         }
     }
 
@@ -70,7 +77,7 @@ abstract public class AbstractRestoreReceiver extends BroadcastReceiver {
      * @param notification
      *      Wrapper around the local notification
      */
-    abstract public void onRestore (Notification notification);
+     abstract public void onRestore (Request request, Notification toast);
 
     /**
      * Build notification specified by options.
@@ -78,6 +85,6 @@ abstract public class AbstractRestoreReceiver extends BroadcastReceiver {
      * @param builder
      *      Notification builder
      */
-    abstract public Notification buildNotification (Builder builder);
+   abstract public Notification buildNotification (Builder builder);
 
 }
