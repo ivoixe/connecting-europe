@@ -1266,7 +1266,8 @@ function datos_portada(){
         $('#home').hide();
 
     }else{
-        document.addEventListener('deviceready', function () {
+        ver_notificacion();
+
 
             /* FCMPlugin.onTokenRefresh(function(token){
                   localStorage.setItem("token", token);
@@ -1276,7 +1277,7 @@ function datos_portada(){
                       localStorage.setItem("token", token);
                   });
               }*/
-        }, false);
+
 
         $('#login').remove();
     }
