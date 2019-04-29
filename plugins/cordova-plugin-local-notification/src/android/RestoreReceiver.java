@@ -51,7 +51,7 @@ public class RestoreReceiver extends AbstractRestoreReceiver {
     public void onRestore (Request request, Notification toast) {
         Date date     = request.getTriggerDate();
         boolean after = date != null && date.after(new Date());
-        alert('ss');
+
         if (!after && toast.isHighPrio()) {
             toast.show();
         } else {
