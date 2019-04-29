@@ -1680,16 +1680,15 @@ function ver_notificacion(){
             localNotificationsArray.push({
                 id: i,
                // at: dtTodap,
-              /*  trigger:{
+                trigger:{
                     at: dtTodap
-                },*/
-                message: "Hora de fichar" + item.horario_entrada,
-                date:dtTodap,
-               // foreground: true,
-               // badge:1,
-              //  priority:1,
-               // wakeup: true,
-               // vibrate: true
+                },
+                text: "Hora de fichar" + item.horario_entrada,
+                foreground: true,
+                badge:1,
+                priority:1,
+                wakeup: true,
+                vibrate: true
             });
         });
     }
@@ -1733,8 +1732,7 @@ function ver_notificacion(){
 
             try{
 
-                window.plugin.notification.local.add(localNotificationsArray);
-               // cordova.plugins.notification.local.schedule(localNotificationsArray);
+                cordova.plugins.notification.local.schedule(localNotificationsArray);
 
             } catch (e) {
 
