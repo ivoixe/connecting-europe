@@ -67,26 +67,10 @@
     "is_top_level": false,
     "variables": {}
   },
-  "de.appplant.cordova.plugin.local-notification": {
-    "source": {
-      "type": "registry",
-      "id": "de.appplant.cordova.plugin.local-notification"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-dialogs": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-dialogs"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "phonegap-plugin-local-notification": {
-    "source": {
-      "type": "registry",
-      "id": "phonegap-plugin-local-notification"
     },
     "is_top_level": true,
     "variables": {}
