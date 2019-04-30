@@ -9,10 +9,21 @@
  */
 var fs = require('fs');
 var path = require('path');
-var utilities = require("./lib/utilities");
+
+fs.ensureDirSync = function (dir) {
+  if (!fs.existsSync(dir)) {
+    dir.split(path.sep).reduce(function (currentPath, folder) {
+      currentPath += folder + path.sep;
+      if (!fs.existsSync(currentPath)) {
+        fs.mkdirSync(currentPath);
+      }
+      return currentPath;
+    }, '');
+  }
+};
 
 var config = fs.readFileSync('config.xml').toString();
-var name = utilities.getValue(config, 'name');
+var name = getValue(config, 'name');
 
 var IOS_DIR = 'platforms/ios';
 var ANDROID_DIR = 'platforms/android';
@@ -43,16 +54,66 @@ var PLATFORM = {
   }
 };
 
+function copyKey (platform) {
+  for (var i = 0; i < platform.src.length; i++) {
+    var file = platform.src[i];
+    if (fileExists(file)) {
+      try {
+        var contents = fs.readFileSync(file).toString();
+
+        try {
+          platform.dest.forEach(function (destinationPath) {
+            var folder = destinationPath.substring(0, destinationPath.lastIndexOf('/'));
+            fs.ensureDirSync(folder);
+            fs.writeFileSync(destinationPath, contents);
+          });
+        } catch (e) {
+          // skip
+        }
+      } catch (err) {
+        console.log(err);
+      }
+
+      break;
+    }
+  }
+}
+
+function getValue(config, name) {
+  var value = config.match(new RegExp('<' + name + '(.*?)>(.*?)</' + name + '>', 'i'));
+  if (value && value[2]) {
+    return value[2]
+  } else {
+    return null
+  }
+}
+
+function fileExists (path) {
+  try {
+    return fs.statSync(path).isFile();
+  } catch (e) {
+    return false;
+  }
+}
+
+function directoryExists (path) {
+  try {
+    return fs.statSync(path).isDirectory();
+  } catch (e) {
+    return false;
+  }
+}
+
 module.exports = function (context) {
   //get platform from the context supplied by cordova
   var platforms = context.opts.platforms;
   // Copy key files to their platform specific folders
-  if (platforms.indexOf('ios') !== -1 && utilities.directoryExists(IOS_DIR)) {
+  if (platforms.indexOf('ios') !== -1 && directoryExists(IOS_DIR)) {
     console.log('Preparing Firebase on iOS');
-    utilities.copyKey(PLATFORM.IOS);
+    copyKey(PLATFORM.IOS);
   }
-  if (platforms.indexOf('android') !== -1 && utilities.directoryExists(ANDROID_DIR)) {
+  if (platforms.indexOf('android') !== -1 && directoryExists(ANDROID_DIR)) {
     console.log('Preparing Firebase on Android');
-    utilities.copyKey(PLATFORM.ANDROID);
+    copyKey(PLATFORM.ANDROID);
   }
 };

@@ -122,11 +122,6 @@ Log an event using Analytics:
 window.FirebasePlugin.logEvent("select_content", {content_type: "page_view", item_id: "home"});
 ```
 
-## setCrashlyticsUserId
-
-Set Crashlytics user identifier.
-- https://firebase.google.com/docs/crashlytics/customize-crash-reports?authuser=0#set_user_ids
-
 ## setScreenName
 
 Set the name of the current screen in Analytics:
@@ -161,11 +156,10 @@ iOS will return: credential (string)
 Android will return:
 credential.verificationId (object and with key verificationId)
 credential.instantVerification (boolean)
-credential.code (string) (note that this key only exists if instantVerification is true)
 
 You need to use device plugin in order to access the right key.
 
-IMPORTANT NOTE: Android supports auto-verify and instant device verification. Therefore in that case it doesn't make sense to ask for an sms code as you won't receive one. In this case you'll get a credential.verificationId and a credential.code where code is the auto received verification code that would normally be sent via sms. To log in using this procedure you must pass this code to PhoneAuthProvider.credential(verificationId, code). You'll find an implementation example further below.
+IMPORTANT NOTE: Android supports auto-verify and instant device verification. Therefore in that case it doesn't make sense to ask for an sms code as you won't receive one. Also, **verificationId** will be *false* in this case. In order to sign the user in you need to check **credential.instantVerification**, if it's true, skip the SMS Code entry, call your backend server (sorry, it is the only way to succeed with this plugin) and pass the phone number as param to identify the user (via ajax for example, using any endpoint to your backend).
 
 When using node.js Firebase Admin-SDK, follow this tutorial:
 - https://firebase.google.com/docs/auth/admin/create-custom-tokens
@@ -188,8 +182,8 @@ It's not perfect but it fits for the most use cases and doesn't require calling 
 window.FirebasePlugin.verifyPhoneNumber(number, timeOutDuration, function(credential) {
     console.log(credential);
 
-    // if instant verification is true use the code that we received from the firebase endpoint, otherwise ask user to input verificationCode:
-    var code = credential.instantVerification ? credential.code : inputField.value.toString();
+    // ask user to input verificationCode:
+    var code = inputField.value.toString();
 
     var verificationId = credential.verificationId;
 
@@ -197,6 +191,9 @@ window.FirebasePlugin.verifyPhoneNumber(number, timeOutDuration, function(creden
 
     // sign in with the credential
     firebase.auth().signInWithCredential(credential);
+
+    // call if credential.instantVerification was true (android only)
+    firebase.auth().signInWithCustomToken(customTokenFromYourServer);
 
     // OR link to an account
     firebase.auth().currentUser.linkWithCredential(credential)

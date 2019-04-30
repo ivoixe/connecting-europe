@@ -8,7 +8,7 @@
     "url": "git+https://github.com/arnesson/cordova-plugin-firebase.git"
   },
   "name": "cordova-plugin-firebase",
-  "version": "2.0.5",
+  "version": "2.0.1",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "cordova-plugin-firebase",
@@ -46,44 +46,15 @@
     "test:cordova@8.0.0:browser@5.0.3": "bash ./test/test-default.sh 8.0.0 browser 5.0.3"
   },
   "dependencies": {},
-  "gitHead": "98953f46e78ed41b2196899cd3e55e7e8f975a95",
+  "readme": "[![Build Status](https://travis-ci.org/arnesson/cordova-plugin-firebase.svg?branch=master)](https://travis-ci.org/arnesson/cordova-plugin-firebase)\r\n\r\n# cordova-plugin-firebase\r\nThis plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!  Android and iOS supported.\r\n\r\n## Supported Cordova Versions\r\n- cordova: `>= 6`\r\n- cordova-android: `>= 6.3`\r\n- cordova-ios: `>= 4`\r\n\r\n## Installation\r\nInstall the plugin by adding it to your project's config.xml:\r\n```\r\n<plugin name=\"cordova-plugin-firebase\" spec=\"^2.0.0\" />\r\n```\r\nor by running:\r\n```\r\ncordova plugin add cordova-plugin-firebase --save\r\n```\r\n\r\n### Guides\r\nGreat installation and setup guide by Medium.com - [https://medium.com/@felipepucinelli/how-to-add-push...](https://medium.com/@felipepucinelli/how-to-add-push-notifications-in-your-cordova-application-using-firebase-69fac067e821)\r\n\r\n### Setup\r\nDownload your Firebase configuration files, GoogleService-Info.plist for iOS and google-services.json for android, and place them in the root folder of your cordova project.  Check out this [firebase article](https://support.google.com/firebase/answer/7015592) for details on how to download the files.\r\n\r\n```\r\n- My Project/\r\n    platforms/\r\n    plugins/\r\n    www/\r\n    config.xml\r\n    google-services.json       <--\r\n    GoogleService-Info.plist   <--\r\n    ...\r\n```\r\n\r\n###### IMPORTANT NOTES\r\n- This plugin uses a hook (after prepare) that copies the configuration files to the right place, namely `platforms/ios/\\<My Project\\>/Resources` for ios and `platforms/android` for android.\r\n- Firebase SDK requires the configuration files to be present and valid, otherwise your app will crash on boot or Firebase features won't work.\r\n\r\n### PhoneGap Build\r\nHooks do not work with PhoneGap Build. This means you will have to manually make sure the configuration files are included. One way to do that is to make a private fork of this plugin and replace the placeholder config files (see `src/ios` and `src/android`) with your actual ones, as well as hard coding your app id and api key in `plugin.xml`.\r\n\r\n### Google Play Services\r\nYour build may fail if you are installing multiple plugins that use Google Play Services.  This is caused by the plugins installing different versions of the Google Play Services library.  This can be resolved by installing [cordova-android-play-services-gradle-release](https://github.com/dpa99c/cordova-android-play-services-gradle-release).\r\n\r\nIf your build is still failing, you can try installing [cordova-android-firebase-gradle-release](https://github.com/dpa99c/cordova-android-firebase-gradle-release).  For more info, read the following [comment](https://github.com/dpa99c/cordova-plugin-request-location-accuracy/issues/50#issuecomment-390025013) about locking down the specific versions for play services and firebase.\r\n\r\n## Google Tag Manager\r\n\r\nCheckout our [guide](docs/GOOGLE_TAG_MANAGER.md) for info on setting up Google Tag Manager.\r\n\r\n## Configuring Notifications\r\n\r\nCheckout our [guide](docs/NOTIFICATIONS.md) for info on configuring notification icons and colors.\r\n\r\n## API\r\n\r\nSee the full [API](docs/API.md) available for this plugin.\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "146ea60ecd616459d0eb5e87560641d9f07a6faa",
   "bugs": {
     "url": "https://github.com/arnesson/cordova-plugin-firebase/issues"
   },
   "homepage": "https://github.com/arnesson/cordova-plugin-firebase#readme",
-  "_id": "cordova-plugin-firebase@2.0.5",
-  "_shasum": "11acfb4784711e62a31f84ae414b1ef601a6afd9",
-  "_from": "cordova-plugin-firebase@latest",
-  "_npmVersion": "2.15.12",
-  "_nodeVersion": "8.9.3",
-  "_npmUser": {
-    "name": "soumak77",
-    "email": "bsoumakian@gmail.com"
-  },
-  "dist": {
-    "shasum": "11acfb4784711e62a31f84ae414b1ef601a6afd9",
-    "tarball": "https://registry.npmjs.org/cordova-plugin-firebase/-/cordova-plugin-firebase-2.0.5.tgz",
-    "integrity": "sha512-ArrP/FhqrTu+udu1DNFHIMVdwFl2+IskYPsKXHHougfZ0w9WBgQxubWYHy/ds6fabj/QQaANYPpR7mSVpL6hTg==",
-    "fileCount": 212,
-    "unpackedSize": 98473206,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbvYxpCRA9TVsSAnZWagAA1FEP/jZW14YpNxb1TYc96wOz\nME1MeaLDZueLdyd5GnkVl5YafXW/qfZ69XDN0O+Yb4rv+F15nXkYMo94lE70\nmrZpTASikZGUnQ1QZdyePEvKroA9LbpST1gEbK6pItIhriDAmJI+rjDSrx2g\nnpj3tgmTZ+4DgICNRs1DPy/R8r6cHI6CHlmibHockuIkZsTRehi56tNb+N0O\nxdTI8QEEDS68XPO+FEjCyesJMTvMKR+uqf6c3d/uvcg1HYvOZ88MiRMbllQo\nBerMRqYCX8C2hoBl1wj2dh+/irmTyw5qAwMsKMmYViwng8QDplwyFMAQHC/T\nCz5nRlRnJZk6km2Myo0vNDs10o2qH1BLX3VGzIzp+R3VGqr8x9AxyHn2KDGf\nM4erxDqEdeGFo9NBz8+vTs40PmnlX/DGoF/aZu23ANJudjpLZ5hrDoTbo5hx\nYDTdkSloAMpqL74JtZC+2hFE0Q26IC2ns1NHZ1XYm+vWWmi4f/JXxblgMEwc\naiQyfSrmZ6IQ0S++I8NtwGXIA8nEAYVD/1YoRInLL/kpYp4Q4jemXOJzcDsz\nzlPzvHvtjLux2RRW8Au/wqcmy2SJ+RQM9zw8Sc/r3KH4uoNkgG1jvrvBN2F9\n35lCAWY/xHKw/e8sLHxwgiF8HoviW6eisWYOLMVopndnkxi+mNrSsAjHxpUC\nuRUN\r\n=uHcP\r\n-----END PGP SIGNATURE-----\r\n"
-  },
-  "maintainers": [
-    {
-      "name": "arnesson",
-      "email": "robert.arnesson@gmail.com"
-    },
-    {
-      "name": "soumak77",
-      "email": "bsoumakian@gmail.com"
-    }
-  ],
-  "directories": {},
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/cordova-plugin-firebase_2.0.5_1539148903578_0.5881790817659673"
-  },
-  "_hasShrinkwrap": false,
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase/-/cordova-plugin-firebase-2.0.5.tgz",
-  "readme": "ERROR: No README data found!"
+  "_id": "cordova-plugin-firebase@2.0.1",
+  "_shasum": "763604261cf4f665fc3dbffdeeacbb468e12ebec",
+  "_from": "git+https://github.com/briantq/cordova-plugin-firebase.git#android-build",
+  "_resolved": "git+https://github.com/briantq/cordova-plugin-firebase.git#146ea60ecd616459d0eb5e87560641d9f07a6faa"
 }

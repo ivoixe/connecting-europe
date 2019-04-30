@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-firebase" version="2.0.5"
+<plugin id="cordova-plugin-firebase" version="2.0.1"
 xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>Google Firebase Plugin</name>
@@ -11,9 +11,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 	</engines>
 
 	<platform name="android">
-		<hook type="after_plugin_install" src="scripts/android/after_plugin_install.js" />
-		<hook type="before_plugin_uninstall" src="scripts/android/before_plugin_uninstall.js" />
-
 		<js-module name="FirebasePlugin" src="www/firebase.js">
 			<clobbers target="FirebasePlugin" />
 		</js-module>
@@ -60,12 +57,10 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<framework src="com.google.firebase:firebase-messaging:+" />
 		<framework src="com.google.firebase:firebase-config:+" />
 		<framework src="com.google.firebase:firebase-perf:+" />
+
 	</platform>
 
 	<platform name="ios">
-		<hook type="after_plugin_install" src="scripts/ios/after_plugin_install.js" />
-		<hook type="before_plugin_uninstall" src="scripts/ios/before_plugin_uninstall.js" />
-
 		<js-module name="FirebasePlugin" src="www/firebase.js">
 			<clobbers target="FirebasePlugin" />
 		</js-module>
@@ -117,5 +112,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		</js-module>
 	</platform>
 
-	<hook type="after_prepare" src="scripts/after_prepare.js" />
+	<hook src="scripts/after_prepare.js" type="after_prepare" />
+	<hook src="scripts/after_plugin_add.js" type="after_plugin_add" />
+	<hook src="scripts/before_plugin_rm.js" type="before_plugin_rm" />
 </plugin>

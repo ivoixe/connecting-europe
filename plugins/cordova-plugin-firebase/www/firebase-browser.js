@@ -68,12 +68,6 @@ exports.logError = function (message, success, error) {
   }
 };
 
-exports.setCrashlyticsUserId = function (userId, success, error) {
-    if (typeof success === 'function') {
-        success();
-    }
-};
-
 exports.setScreenName = function (name, success, error) {
   if (typeof success === 'function') {
     success();
