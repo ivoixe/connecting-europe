@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm-with-dependecy-updated/src/android/FCMPlugin.gradle" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-fcm-with-dependecy-updated/src/android/FCMPlugin.gradle" />
-    </list>
+    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556529220237</updated>
       <workItem from="1556529221941" duration="14374000" />
-      <workItem from="1556605589629" duration="10883000" />
+      <workItem from="1556605589629" duration="10960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25257000" />
+    <option name="totallyTimeSpent" value="25334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
