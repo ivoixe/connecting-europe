@@ -146,13 +146,5 @@
     },
     "is_top_level": true,
     "variables": {}
-  },
-  "cordova-plugin-firebase": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/briantq/cordova-plugin-firebase.git#android-build"
-    },
-    "is_top_level": true,
-    "variables": {}
   }
 }

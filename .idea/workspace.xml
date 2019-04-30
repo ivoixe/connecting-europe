@@ -2,188 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CHANGELOG.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CODE_OF_CONDUCT.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/LICENSE" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/README.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/bump-version.js" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/bump-version.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/API.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/API.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/GOOGLE_TAG_MANAGER.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/GOOGLE_TAG_MANAGER.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/NOTIFICATIONS.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/NOTIFICATIONS.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/package.json" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/package.json" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/plugin.xml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/after_prepare.js" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/after_prepare.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/after_plugin_install.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/before_plugin_uninstall.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/helper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/after_plugin_install.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/before_plugin_uninstall.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/helper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/lib/utilities.js" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/lib/utilities.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePlugin.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePlugin.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginInstanceIDService.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginInstanceIDService.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiver.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiver.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiverManager.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiverManager.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessagingService.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessagingService.java" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/OnNotificationOpenReceiver.java" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/OnNotificationOpenReceiver.java" />
       <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/colors.xml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/colors.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/cordova-plugin-firebase-strings.xml" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/cordova-plugin-firebase-strings.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/AppDelegate+FirebasePlugin.m" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/AppDelegate+FirebasePlugin.m" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/ANSCompatibility.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/ANSCompatibility.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Answers.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Answers.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSAttributes.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSAttributes.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSLogging.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSLogging.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSReport.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSReport.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSStackFrame.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSStackFrame.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Crashlytics.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Crashlytics.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/run" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/run" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/FABAttributes.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/FABAttributes.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/Fabric.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/Fabric.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/run" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/run" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIREventNames.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIREventNames.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRApp.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRApp.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRConfiguration.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRConfiguration.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRLoggerLevel.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRLoggerLevel.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIROptions.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIROptions.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FirebaseCore.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FirebaseCore.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleAppMeasurement.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleAppMeasurement.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerCodes.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerCodes.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerLevel.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerLevel.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULNSData+zlib.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULNSData+zlib.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_common.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_common.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_decode.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_decode.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_encode.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_encode.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuth.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuth.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthCredential.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthCredential.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthErrors.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthErrors.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthSettings.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthSettings.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIROAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIROAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUser.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUser.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserInfo.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserInfo.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserMetadata.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserMetadata.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuth.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuth.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMGatherInputStream.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMGatherInputStream.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMMIMEDocument.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMMIMEDocument.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMReadMonitorInputStream.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMReadMonitorInputStream.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcher.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcher.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherLogging.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherLogging.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherService.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherService.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionUploadFetcher.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionUploadFetcher.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Firebase.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Firebase.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FIRMessaging.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FIRMessaging.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/NOTICES" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/NOTICES" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRHTTPMetric.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRHTTPMetric.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformance.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformance.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformanceAttributable.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformanceAttributable.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRTrace.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRTrace.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FirebasePerformance.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FirebasePerformance.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugSelectorValidation.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugSelectorValidation.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugThreadValidation.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugThreadValidation.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDefines.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDefines.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLocalizedString.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLocalizedString.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLogger.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLogger.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMMethodCheck.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMMethodCheck.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSData+zlib.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSData+zlib.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSDictionary+URLArguments.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSDictionary+URLArguments.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSString+URLArguments.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSString+URLArguments.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMStringEncoding.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMStringEncoding.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMTypeCasting.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMTypeCasting.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMURLBuilder.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMURLBuilder.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/README.md" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/README.md" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRExperimentController.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRExperimentController.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRLifecycleEvents.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRLifecycleEvents.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FirebaseABTesting.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FirebaseABTesting.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FIRRemoteConfig.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FIRRemoteConfig.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FirebaseRemoteConfig.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FirebaseRemoteConfig.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Any.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Any.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Api.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Api.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Duration.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Duration.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Empty.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Empty.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/FieldMask.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/FieldMask.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBBootstrap.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBBootstrap.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionInternals.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionInternals.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionRegistry.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionRegistry.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers_RuntimeSupport.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers_RuntimeSupport.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRuntimeTypes.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRuntimeTypes.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities_PackagePrivate.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities_PackagePrivate.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWellKnownTypes.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWellKnownTypes.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWireFormat.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWireFormat.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/SourceContext.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/SourceContext.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Struct.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Struct.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Timestamp.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Timestamp.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Type.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Type.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Wrappers.pbobjc.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Wrappers.pbobjc.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Modules/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/module.modulemap" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/module.modulemap" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.h" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.h" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.m" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.m" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/GoogleService-Info.plist" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/GoogleService-Info.plist" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase-browser.js" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase-browser.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase.js" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,17 +60,27 @@
         <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-services.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="google-services.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/google-services.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -319,7 +148,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules" />
     <handled-path value="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules" />
   </component>
@@ -396,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556529220237</updated>
       <workItem from="1556529221941" duration="14374000" />
-      <workItem from="1556605589629" duration="12777000" />
+      <workItem from="1556605589629" duration="13168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27151000" />
+    <option name="totallyTimeSpent" value="27542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
@@ -782,14 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
@@ -801,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -809,7 +629,15 @@
     <entry file="file://$PROJECT_DIR$/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding />
         </state>
       </provider>
