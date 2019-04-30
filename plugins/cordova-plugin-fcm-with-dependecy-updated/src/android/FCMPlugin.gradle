@@ -1,22 +1,38 @@
 buildscript {
     repositories {
-        mavenCentral()
         jcenter()
-        mavenLocal()
     }
     dependencies {
-
-        classpath 'com.google.gms:google-services:4.2.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
     }
 }
+
+project.ext.group = 'com.google.gms'
+project.ext.archivesBaseName = 'google-services'
+project.ext.version = '4.2.0'
+project.ext.pomDesc = 'Gradle plug-in to build Firebase applications.'
+
+apply plugin: 'groovy'
+
 repositories {
-    mavenCentral()
-    jcenter()
+  google()
+  jcenter()
 }
+
 dependencies {
-    compile 'com.google.firebase:firebase-core:10.+'
-    compile 'com.google.firebase:firebase-messaging:11.+'
+    implementation gradleApi()
+    implementation 'com.google.android.gms:strict-version-matcher-plugin:1.1.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.guava:guava:27.0.1-jre'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'com.google.truth:truth:0.42'
 }
-// apply plugin: 'com.google.gms.google-services'
-// class must be used instead of id(string) to be able to apply plugin from non-root gradle file
-apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
+
+apply from: 'publish.gradle'
+
+if (project.hasProperty('bintrayUser') && project.hasProperty('bintrayKey')) {
+    apply from: 'bintray.gradle'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
