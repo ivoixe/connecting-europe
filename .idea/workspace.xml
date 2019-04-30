@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" />
-    </list>
+    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,8 +131,8 @@
       <find>ver_datas</find>
       <find>ver_dat</find>
       <find>google</find>
-      <find>com.google.gms.google-services</find>
       <find>app-build</find>
+      <find>com.google.gms.google-services</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556529220237</updated>
       <workItem from="1556529221941" duration="14374000" />
-      <workItem from="1556605589629" duration="7692000" />
+      <workItem from="1556605589629" duration="7860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22066000" />
+    <option name="totallyTimeSpent" value="22234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
@@ -386,6 +384,22 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2075">
             <caret line="219" column="77" lean-forward="true" selection-start-line="219" selection-start-column="77" selection-end-line="219" selection-end-column="77" />
+            <folding>
+              <marker date="1554965826000" expanded="true" signature="4614:4788" ph="..." />
+              <marker date="1554965826000" expanded="true" signature="6572:7351" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="6692:6978" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="6755:6944" ph="//..." />
+              <marker date="1554965826000" expanded="true" signature="7021:7078" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7141:7347" ph="{...}" />
+              <marker date="1554965826000" expanded="false" signature="7400:7492" ph="..." />
+              <marker date="1554965826000" expanded="true" signature="7505:7560" ph="{&quot;selector&quot;: 'page-home'...}" />
+              <marker date="1554965826000" expanded="true" signature="7584:7726" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7746:8602" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7887:8194" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="7957:8154" ph="//..." />
+              <marker date="1554965826000" expanded="true" signature="8237:8300" ph="{...}" />
+              <marker date="1554965826000" expanded="true" signature="8364:8588" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -516,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
