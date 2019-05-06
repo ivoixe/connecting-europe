@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/scripts/fcm_config_files_process.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPluginActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/MyFirebaseInstanceIDService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/MyFirebaseMessagingService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/AppDelegate+FCMPlugin.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/AppDelegate+FCMPlugin.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/FCMPlugin.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/FCMPlugin.m" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/GoogleService-Info.plist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/Firebase.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/FirebaseAnalytics" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRApp.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRConfiguration.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIREventNames.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIROptions.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseAnalytics.framework/Modules/module.modulemap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/FirebaseCore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Headers/FIRApp.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Headers/FIRConfiguration.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Headers/FIROptions.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Headers/FirebaseCore.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseCore.framework/Modules/module.modulemap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseInstanceID.framework/FirebaseInstanceID" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseInstanceID.framework/Modules/module.modulemap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseMessaging.framework/FirebaseMessaging" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseMessaging.framework/Headers/FIRMessaging.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseMessaging.framework/Headers/FirebaseMessaging.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/FirebaseMessaging.framework/Modules/module.modulemap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/GoogleIPhoneUtilities.framework/GoogleIPhoneUtilities" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/GoogleInterchangeUtilities.framework/GoogleInterchangeUtilities" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/GoogleSymbolUtilities.framework/GoogleSymbolUtilities" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/ios/firebase/GoogleUtilities.framework/GoogleUtilities" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-fcm/www/FCMPlugin.js" afterPath="" />
-    </list>
+    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,71 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1715">
-              <caret line="110" column="59" lean-forward="false" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+            <state relative-caret-position="661">
+              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="631">
-                <caret line="82" column="47" lean-forward="false" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-                <folding>
-                  <marker date="1554965826000" expanded="true" signature="3205:3218" ph="..." />
-                  <marker date="1554965826000" expanded="true" signature="3991:4806" ph="..." />
-                  <marker date="1554965826000" expanded="true" signature="4043:4784" ph="..." />
-                  <marker date="1554965826000" expanded="true" signature="11281:11309" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="11783:11854" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="11872:12154" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="11877:11953" ph="//..." />
-                  <marker date="1554965826000" expanded="true" signature="12047:12152" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="12076:12146" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="12157:12379" ph="//..." />
-                  <marker date="1554965826000" expanded="true" signature="12806:12894" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="12912:12975" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="13689:13700" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="13769:13780" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="14029:14120" ph="//..." />
-                  <marker date="1554965826000" expanded="true" signature="14146:16793" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="14366:14559" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="14729:14804" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="15021:15079" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="15178:15262" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="15374:15441" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="15462:15523" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="15596:16352" ph="{&quot;url&quot;: &quot;http://your.server.com/locations&quot;...}" />
-                  <marker date="1554965826000" expanded="true" signature="16144:16212" ph="{&quot;X-FOO&quot;: &quot;bar&quot;...}" />
-                  <marker date="1554965826000" expanded="true" signature="16230:16346" ph="{&quot;auth_token&quot;: &quot;maybe_your_server_authenticates_via_token_YES?&quot;...}" />
-                  <marker date="1554965826000" expanded="true" signature="16370:16575" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="16531:16569" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="16683:16791" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="16704:16742" ph="{...}" />
-                  <marker date="1554965826000" expanded="true" signature="16748:16785" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google-services.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="google-services.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/google-services.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -204,10 +101,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules" />
-    <handled-path value="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1357" />
@@ -263,12 +156,12 @@
       <workItem from="1556529221941" duration="14374000" />
       <workItem from="1556605589629" duration="15395000" />
       <workItem from="1556778221025" duration="1396000" />
-      <workItem from="1557131166466" duration="7354000" />
+      <workItem from="1557131166466" duration="7988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38519000" />
+    <option name="totallyTimeSpent" value="39153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1357" y="0" width="1296" height="1010" extended-state="0" />
@@ -402,7 +295,6 @@
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/cordova-plugin-firebase-strings.xml" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginInstanceIDService.java" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json" />
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" />
     <entry file="file://Z:/SUBACUÁTICAS - web del ciclo 2015/web/temas/nav-top-secondary-nav-left/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-795">
@@ -500,48 +392,9 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="631">
             <caret line="82" column="47" lean-forward="false" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
-            <folding>
-              <marker date="1554965826000" expanded="true" signature="3205:3218" ph="..." />
-              <marker date="1554965826000" expanded="true" signature="3991:4806" ph="..." />
-              <marker date="1554965826000" expanded="true" signature="4043:4784" ph="..." />
-              <marker date="1554965826000" expanded="true" signature="11281:11309" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="11783:11854" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="11872:12154" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="11877:11953" ph="//..." />
-              <marker date="1554965826000" expanded="true" signature="12047:12152" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="12076:12146" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="12157:12379" ph="//..." />
-              <marker date="1554965826000" expanded="true" signature="12806:12894" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="12912:12975" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="13689:13700" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="13769:13780" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="14029:14120" ph="//..." />
-              <marker date="1554965826000" expanded="true" signature="14146:16793" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="14366:14559" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="14729:14804" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="15021:15079" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="15178:15262" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="15374:15441" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="15462:15523" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="15596:16352" ph="{&quot;url&quot;: &quot;http://your.server.com/locations&quot;...}" />
-              <marker date="1554965826000" expanded="true" signature="16144:16212" ph="{&quot;X-FOO&quot;: &quot;bar&quot;...}" />
-              <marker date="1554965826000" expanded="true" signature="16230:16346" ph="{&quot;auth_token&quot;: &quot;maybe_your_server_authenticates_via_token_YES?&quot;...}" />
-              <marker date="1554965826000" expanded="true" signature="16370:16575" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="16531:16569" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="16683:16791" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="16704:16742" ph="{...}" />
-              <marker date="1554965826000" expanded="true" signature="16748:16785" ph="{...}" />
-            </folding>
+            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1715">
-          <caret line="110" column="59" lean-forward="false" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,6 +402,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="41" />
           <folding />
         </state>
       </provider>
