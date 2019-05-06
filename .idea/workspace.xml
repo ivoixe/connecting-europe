@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change beforePath="$PROJECT_DIR$/www/js/funciones.js" afterPath="$PROJECT_DIR$/www/js/funciones.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,19 +20,55 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="70" column="86" lean-forward="true" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
+            <state relative-caret-position="-36">
+              <caret line="70" column="86" lean-forward="false" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/build.gradle">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-289">
+              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="264" column="14" lean-forward="true" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1557150890387" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+                <marker date="1557150890387" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+                <marker date="1557150890387" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding>
+                <marker date="1557150591328" expanded="true" signature="2200:2327" ph="SELECT * FRO... alumnoshorarios" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +76,8 @@
       <file leaf-file-name="campos.php" pinned="false" current-in-tab="false">
         <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/campos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="181">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding>
                 <marker date="1554790376149" expanded="true" signature="20959:21015" ph="SELECT codig... alumnos" />
               </folding>
@@ -52,23 +88,13 @@
       <file leaf-file-name="alumnos-proyecto-edit.php" pinned="false" current-in-tab="false">
         <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11594">
+            <state relative-caret-position="265">
               <caret line="682" column="98" lean-forward="false" selection-start-line="682" selection-start-column="95" selection-end-line="682" selection-end-column="98" />
               <folding>
                 <marker date="1557147379884" expanded="true" signature="12188:12202" ph="..." />
                 <marker date="1557147379884" expanded="true" signature="12343:12357" ph="..." />
                 <marker date="1557147379884" expanded="true" signature="12487:12501" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -102,16 +128,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_log" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="google-services.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/google-services.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,9 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reb</find>
-      <find>portada</find>
-      <find>ver</find>
       <find>token</find>
       <find>ver_datos</find>
       <find>ver_datas</find>
@@ -156,6 +169,9 @@
       <find>ADMI</find>
       <find>571</find>
       <find>build.gradle</find>
+      <find>onER</find>
+      <find>ALERT</find>
+      <find>error status:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +183,6 @@
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClickReceiver.java" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" />
-        <option value="$PROJECT_DIR$/www/js/funciones.js" />
         <option value="$PROJECT_DIR$/google-services.json" />
         <option value="$PROJECT_DIR$/plugins/cordova-support-google-services/build.gradle" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json" />
@@ -180,8 +195,9 @@
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-fcm/plugin.xml" />
         <option value="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/plugin.xml" />
         <option value="V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php" />
+        <option value="$PROJECT_DIR$/www/js/funciones.js" />
       </list>
     </option>
   </component>
@@ -251,12 +267,12 @@
       <workItem from="1556605589629" duration="15395000" />
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
-      <workItem from="1557148876350" duration="372000" />
+      <workItem from="1557148876350" duration="2233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42830000" />
+    <option name="totallyTimeSpent" value="44691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1357" y="0" width="1296" height="1010" extended-state="0" />
@@ -293,13 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -307,13 +316,6 @@
             <caret line="219" column="77" lean-forward="true" selection-start-line="219" selection-start-column="77" selection-end-line="219" selection-end-column="77" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="878" column="18" lean-forward="false" selection-start-line="878" selection-start-column="9" selection-end-line="878" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -367,7 +369,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
     <entry file="file://$PROJECT_DIR$/npm-debug.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -380,13 +381,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -440,16 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/campos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <marker date="1554790376149" expanded="true" signature="20959:21015" ph="SELECT codig... alumnos" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -483,9 +467,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/save_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="141" column="57" lean-forward="false" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding>
+            <marker date="1557150363518" expanded="true" signature="3657:3698" ph="UPDATE alumnos... " />
+            <marker date="1557150363518" expanded="true" signature="3984:4067" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557150363518" expanded="true" signature="6872:6999" ph="SELECT * FRO... alumnos_horarios" />
+            <marker date="1557150363518" expanded="true" signature="8974:9215" ph="SELECT * FRO... alumnos_horarios" />
+            <marker date="1557150363518" expanded="true" signature="9531:9863" ph="UPDATE alumnos_horarios... " />
+            <marker date="1557150363518" expanded="true" signature="9935:10176" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11594">
+        <state relative-caret-position="265">
           <caret line="682" column="98" lean-forward="false" selection-start-line="682" selection-start-column="95" selection-end-line="682" selection-end-column="98" />
           <folding>
             <marker date="1557147379884" expanded="true" signature="12188:12202" ph="..." />
@@ -495,34 +510,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
+    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/campos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google-services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="181">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <marker date="1554790376149" expanded="true" signature="20959:21015" ph="SELECT codig... alumnos" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="70" column="86" lean-forward="true" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
+        <state relative-caret-position="-36">
+          <caret line="70" column="86" lean-forward="false" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/build.gradle">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1557150890387" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+            <marker date="1557150890387" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557150890387" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <marker date="1557150591328" expanded="true" signature="2200:2327" ph="SELECT * FRO... alumnoshorarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="264" column="14" lean-forward="true" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
           <folding />
         </state>
       </provider>

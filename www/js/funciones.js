@@ -263,11 +263,8 @@ function initialize(lat,log) {
             }
 
         }else{
-
-            alert( "error status: " + status);
-
-            dir = "<p>El Servicio de Codificación Geográfica ha fallado con el siguiente error: " + status + ".</p>";
-
+           // alert( "error status: " + status);
+            //dir = "<p>El Servicio de Codificación Geográfica ha fallado con el siguiente error: " + status + ".</p>";
         }
 
 
