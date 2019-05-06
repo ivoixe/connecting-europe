@@ -86,8 +86,8 @@
         <splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
     </platform>
-    <plugin name="org.apache.cordova.geolocation" spec="0.3.6" />
-    <plugin name="cordova-plugin-globalization" spec="1.11.0" />
+    <plugin name="org.apache.cordova.geolocation" spec="npm" />
+    <plugin name="cordova-plugin-globalization" spec="npm" />
     <feature name="PhoneNumberPlugin">
         <param name="android-package" value="at.oneminutedistraction.phonenumber.PhoneNumberPlugin" />
     </feature>
