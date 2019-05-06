@@ -175,15 +175,12 @@ function onSuccess(position) {
     //alert('posicion'+position);
     //datos_portada();
     initialize(position.coords.latitude,position.coords.longitude);
-    guardarPosicion(position.coords.latitude,position.coords.longitude);
     return position;
 }
 //Si algo fallase al localizarnos...
 
 function onError(error) {
-
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
-
 }
 
 //Posiciona el marcador en el MAPA basandose en nuestra geolocalización (vía clearWatch() o getCurrentPosition() al iniciar la app)
@@ -257,6 +254,7 @@ function initialize(lat,log) {
                 lat_actual = lat;
                 log_actual = log;
                 //navigator.splashscreen.hide();
+                guardarPosicion(lat_actual,log_actual);
             }else{
                 alert('esta llendo por un lado que no es');
                 dir = "<p>No se ha podido obtener ninguna dirección en esas coordenadas.</p>";
@@ -631,8 +629,6 @@ function guardarPosicion(lat_actual,log_actual){
 
     // Limpiamos el select, para que muestre los lugares dentro del radio solicitado.
 
-
-
     //	var dateCET = getDate(1); // Central European Time is GMT +1
 
     $(".entrar").unbind('click').bind('click', function () { });
@@ -656,7 +652,6 @@ function guardarPosicion(lat_actual,log_actual){
     var username = localStorage.getItem('username') || '<empty>';
 
     var password = localStorage.getItem('password') || '<empty>';
-
 
 
     var date_s=new Date();
