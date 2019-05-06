@@ -24,7 +24,7 @@
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" spec="npm" />
+    <plugin name="cordova-plugin-whitelist" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -86,8 +86,8 @@
         <splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
     </platform>
-    <plugin name="org.apache.cordova.geolocation" spec="npm" />
-    <plugin name="cordova-plugin-globalization" spec="npm" />
+    <plugin name="org.apache.cordova.geolocation" />
+    <plugin name="cordova-plugin-globalization" />
     <feature name="PhoneNumberPlugin">
         <param name="android-package" value="at.oneminutedistraction.phonenumber.PhoneNumberPlugin" />
     </feature>
