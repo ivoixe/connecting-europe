@@ -24,7 +24,7 @@
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+    <plugin name="cordova-plugin-whitelist" spec="npm" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
