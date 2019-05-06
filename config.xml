@@ -108,5 +108,5 @@
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
     <plugin name="cordova-plugin-local-notification" />
 
-  
+
 </widget>
