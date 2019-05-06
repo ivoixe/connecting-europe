@@ -1,7 +1,967 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="" />
+    <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/docs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/docs/geofencing.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/docs/http.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/docs/timing-diagram.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/example/images/android-sample-app.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/example/images/android-sdk-manager.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/example/images/distance-filter-city.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/example/images/distance-filter-highway.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/example/images/enable-background-audio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/BackgroundGeolocationHeadlessTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/CDVBackgroundGeolocation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/HeadlessBroadcastReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/HeadlessJobService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/HeadlessTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.aar.md5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.aar.sha1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.pom" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.pom.md5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/2.12.22/tslocationmanager-2.12.22.pom.sha1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/android/libs/com/transistorsoft/tslocationmanager/maven-metadata.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/CDVBackgroundGeolocation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/CDVBackgroundGeolocation.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/LocationManager.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSActivityChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSConfig.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSConnectivityChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSCurrentPositionRequest.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSEnabledChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSGeofence.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSGeofenceEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSGeofencesChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSHeartbeatEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSHttpEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSLocation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSLocationManager.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSPowerSaveChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSProviderChangeEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSSchedule.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSScheduleEvent.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Headers/TSWatchPositionRequest.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/TSLocationManager" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/_CodeSignature/CodeDirectory" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/_CodeSignature/CodeRequirements" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/_CodeSignature/CodeRequirements-1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/_CodeSignature/CodeResources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/src/ios/TSLocationManager.framework/_CodeSignature/CodeSignature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/www/API.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/www/BackgroundGeolocation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/src/android/com/android/plugins/Permissions.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/www/permissions-dummy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-android-permissions/www/permissions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/BackgroundFetchHeadlessTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/CDVBackgroundFetch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/HeadlessBroadcastReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/HeadlessJobService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/HeadlessTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.aar.md5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.aar.sha1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.pom" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.pom.md5" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/0.2.0/tsbackgroundfetch-0.2.0.pom.sha1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/android/libs/com/transistorsoft/tsbackgroundfetch/maven-metadata.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/CDVBackgroundFetch.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/CDVBackgroundFetch.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/Headers/TSBackgroundFetch.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/TSBackgroundFetch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/_CodeSignature/CodeDirectory" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/_CodeSignature/CodeRequirements" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/_CodeSignature/CodeRequirements-1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/_CodeSignature/CodeResources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/src/ios/TSBackgroundFetch.framework/_CodeSignature/CodeSignature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/www/BackgroundFetch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/appbeep.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/appbeep.wma" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/BackgroundExt.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/BackgroundMode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/ForegroundService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/browser/BackgroundModeProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/ios/APPBackgroundMode.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/ios/APPBackgroundMode.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/ios/APPMethodMagic.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/ios/APPMethodMagic.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/windows/BackgroundModeProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-background-mode/www/background-mode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/de/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/es/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/fr/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/it/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/ja/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/ko/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/pl/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/ru/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/doc/zh/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/src/android/Notification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/src/ios/CDVNotification.bundle/beep.wav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/src/ios/CDVNotification.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/src/ios/CDVNotification.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/src/windows/NotificationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/tests/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/tests/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/tests/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/www/android/notification.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/www/browser/notification.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/www/notification.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-dialogs/www/windows/notification.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CODE_OF_CONDUCT.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/bump-version.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/API.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/GOOGLE_TAG_MANAGER.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/docs/NOTIFICATIONS.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/after_prepare.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/after_plugin_install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/before_plugin_uninstall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/android/helper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/after_plugin_install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/before_plugin_uninstall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/ios/helper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/scripts/lib/utilities.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePlugin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginInstanceIDService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessageReceiverManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/FirebasePluginMessagingService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/OnNotificationOpenReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build-extras.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/cordova-plugin-firebase-strings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/google-services.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/AppDelegate+FirebasePlugin.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/AppDelegate+FirebasePlugin.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Crashlytics" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/ANSCompatibility.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Answers.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSAttributes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSLogging.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSReport.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/CLSStackFrame.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Headers/Crashlytics.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/run" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/submit" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Crashlytics.framework/uploadDSYM" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Fabric" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/FABAttributes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Headers/Fabric.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/run" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Crashlytics/Fabric.framework/uploadDSYM" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/FirebaseAnalytics" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIREventNames.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseAnalytics.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/FirebaseCore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRApp.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRConfiguration.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIRLoggerLevel.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FIROptions.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Headers/FirebaseCore.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCore.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/FirebaseInstanceID" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FIRInstanceID.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/FirebaseInstanceID.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleAppMeasurement.framework/GoogleAppMeasurement" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleAppMeasurement.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/GoogleUtilities" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerCodes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULLoggerLevel.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Headers/GULNSData+zlib.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/GoogleUtilities.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/MeasurementNanoPB.framework/MeasurementNanoPB" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_common.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_decode.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Headers/pb_encode.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Analytics/nanopb.framework/nanopb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/FirebaseAuth" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuth.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthCredential.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthErrors.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthSettings.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIROAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUser.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FIRUserMetadata.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuth.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/FirebaseAuth.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/GTMSessionFetcher" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMGatherInputStream.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMMIMEDocument.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMReadMonitorInputStream.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcher.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherLogging.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionFetcherService.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Headers/GTMSessionUploadFetcher.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Auth/GTMSessionFetcher.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Firebase.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/FirebaseMessaging" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FIRMessaging.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Messaging/FirebaseMessaging.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/NOTICES" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/FirebasePerformance" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRHTTPMetric.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformance.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRPerformanceAttributable.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FIRTrace.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Headers/FirebasePerformance.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/FirebasePerformance.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/GoogleToolboxForMac" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugSelectorValidation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDebugThreadValidation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMDefines.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLocalizedString.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMLogger.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMMethodCheck.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSData+zlib.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSDictionary+URLArguments.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMNSString+URLArguments.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMStringEncoding.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMTypeCasting.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Headers/GTMURLBuilder.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/Performance/GoogleToolboxForMac.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/FirebaseABTesting" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRExperimentController.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FIRLifecycleEvents.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Headers/FirebaseABTesting.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/FirebaseRemoteConfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FIRRemoteConfig.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Headers/FirebaseRemoteConfig.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Any.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Api.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Duration.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Empty.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/FieldMask.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBArray_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBBootstrap.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedInputStream_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBCodedOutputStream_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDescriptor_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBDictionary_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionInternals.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBExtensionRegistry.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBMessage_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBProtocolBuffers_RuntimeSupport.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRootObject_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBRuntimeTypes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownFieldSet_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUnknownField_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBUtilities_PackagePrivate.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWellKnownTypes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/GPBWireFormat.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/SourceContext.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Struct.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Timestamp.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Type.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Headers/Wrappers.pbobjc.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Modules/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/RemoteConfig/Protobuf.framework/Protobuf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/Firebase/module.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/FirebasePlugin.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/ios/GoogleService-Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/platform-add.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/platform-build.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/plugin-add.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/test-default.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/test-with-1-plugin.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/test-with-2-plugins.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/test/test-with-3-plugins.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase-browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/de/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/es/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/fr/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/it/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/ja/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/ko/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/pl/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/ru/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/doc/zh/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/src/android/Geolocation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/src/ios/CDVLocation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/src/ios/CDVLocation.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/src/windows/GeolocationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/tests/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/tests/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/tests/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/www/Coordinates.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/www/Position.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/www/PositionError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/www/android/geolocation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-geolocation/www/geolocation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/de/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/es/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/fr/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/it/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/ja/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/ko/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/pl/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/ru/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/doc/zh/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/android/Globalization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/android/GlobalizationError.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/.cproject" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/device/libGlobalization.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/autolink.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/config.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/features.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/forwards.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/json.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/reader.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/value.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json/writer.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_batchallocator.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_internalarray.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_internalmap.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_reader.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_value.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_valueiterator.inl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/json_writer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/plugin.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/plugin.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/tokenizer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/public/tokenizer.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/simulator/libGlobalization.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/src/globalization_js.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/src/globalization_js.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/src/globalization_ndk.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/blackberry10/native/src/globalization_ndk.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/browser/GlobalizationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/firefoxos/GlobalizationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/ios/CDVGlobalization.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/ios/CDVGlobalization.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/tizen/GlobalizationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/ubuntu/globalization.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/ubuntu/globalization.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy.winmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy.sln" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/Cordova/JSON/JsonHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/Globalization/GlobalizationApiTypes.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/Globalization/GlobalizationImpl.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/Globalization/SettableCultureInfo.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/GlobalizationProxy.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/GlobalizationProxy.csproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/windows/GlobalizationProxy/GlobalizationProxy/Properties/AssemblyInfo.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/src/wp/Globalization.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/tests/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/tests/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/tests/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/GlobalizationError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/browser/moment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/l10n.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/l10n_date.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ar.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.as.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ast.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.bg.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.bn-BD.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.bn-IN.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ca.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.cs.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.cy.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.da.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.de.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.el.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.en-GB.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.en-US.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.eo.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.et.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.eu.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ff.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.fr.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.fy-NL.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ga-IE.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.gd.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.gl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.gu.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.he.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.hi-IN.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.hr.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.hu.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.id.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.it.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ja.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.km.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.kn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ko.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.lij.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.lt.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.mai.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.mk.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ml.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.mr.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ms.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.nb-NO.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ne-NP.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.nl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.or.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.pa.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.pl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.pt-BR.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ro.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ru.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.si.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sk.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.son.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sq.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sr-Cyrl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sr-Latn.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sv-SE.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.sw.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ta.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.te.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.th.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.tr.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.ur.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.vi.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.xh.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.zh-CN.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/firefoxos/locales/date.zh-TW.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/globalization.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-globalization/www/ubuntu/globalization.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/de/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/es/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/fr/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/it/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/ja/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/ko/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/pl/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/ru/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/doc/zh/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/InAppBrowser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/InAppBrowserDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/InAppChromeClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-hdpi/ic_action_next_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-hdpi/ic_action_previous_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-hdpi/ic_action_remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-mdpi/ic_action_next_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-mdpi/ic_action_previous_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-mdpi/ic_action_remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xhdpi/ic_action_next_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xhdpi/ic_action_previous_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xhdpi/ic_action_remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xxhdpi/ic_action_next_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xxhdpi/ic_action_previous_item.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/android/res/drawable-xxhdpi/ic_action_remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/ios/CDVInAppBrowser.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/ios/CDVInAppBrowser.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/osx/CDVInAppBrowser.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/osx/CDVInAppBrowser.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/windows/InAppBrowserProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/.eslintrc.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/inject.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/inject.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/inject.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/local.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/local.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/resources/video.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/tests/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/www/inappbrowser.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/www/inappbrowser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/ClearReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/ClickReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/LocalNotification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/TriggerReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/build/localnotification.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Builder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Manager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Notification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Options.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/Request.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/action/Action.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/action/ActionGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClearReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClickReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractTriggerReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/DateTrigger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/IntervalTrigger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/trigger/MatchTrigger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/util/AssetProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/util/AssetUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/xml/localnotification_provider_paths.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/www/local-notification-core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/www/local-notification-util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-local-notification/www/local-notification.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/src/android/RequestLocationAccuracy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/src/ios/RequestLocationAccuracy.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/src/ios/RequestLocationAccuracy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/www/android/RequestLocationAccuracy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-request-location-accuracy/www/ios/RequestLocationAccuracy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ru/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/android/SplashScreen.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/ResolutionHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/contents.xcworkspacedata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTest.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.pbxproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLib.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLibTests.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/RELEASENOTES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/de/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/es/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/fr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/it/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ja/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ko/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/pl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/zh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/src/android/CordovaMethod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-support-android-plugin/src/android/ReflectiveCordovaPlugin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/cordova.plugins.diagnostic.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/examples/normal-usage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/examples/safe-string.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/colors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/custom/trap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/custom/zalgo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/extendStringPrototype.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/maps/america.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/maps/rainbow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/maps/random.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/maps/zebra.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/styles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/system/has-flag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/lib/system/supports-colors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/safe.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/safe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/colors/themes/generic-logging.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/CHANGES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/NOTICE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/constants.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/elementpath.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/elementtree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/errors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/parsers/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/parsers/sax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/sprintf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/treebuilder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/node_modules/sax/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/node_modules/sax/LICENSE-W3C.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/node_modules/sax/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/node_modules/sax/lib/sax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/node_modules/sax/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/tests/data/bom-xml.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/tests/data/xml1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/tests/data/xml2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/elementtree/tests/test-simple.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/example/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/readme.markdown" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/all_bool.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/bool.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/dash.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/default_bool.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/dotted.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/kv_short.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/long.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/num.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/parse_modified.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/short.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/stop_early.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/unknown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/node_modules/minimist/test/whitespace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/scripts/apply-modules.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/scripts/logger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_Bluetooth.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_Camera.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_External_Storage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_Location.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_NFC.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_Notifications.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/android/Diagnostic_Wifi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Bluetooth.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Bluetooth.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Calendar.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Calendar.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Camera.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Camera.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Contacts.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Contacts.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Location.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Location.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Microphone.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Microphone.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Motion.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Motion.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Notifications.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Notifications.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Reminders.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Reminders.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Wifi.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/ios/Diagnostic_Wifi.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/windows/diagnosticProxy.bluetooth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/windows/diagnosticProxy.camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/windows/diagnosticProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/windows/diagnosticProxy.location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/src/windows/diagnosticProxy.wifi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.bluetooth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.contacts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.external_storage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.microphone.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.nfc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.notifications.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/android/diagnostic.wifi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.bluetooth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.contacts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.microphone.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.motion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.notifications.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.reminders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/ios/diagnostic.wifi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/windows/diagnostic.bluetooth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/windows/diagnostic.camera.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/windows/diagnostic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/windows/diagnostic.location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova.plugins.diagnostic/www/windows/diagnostic.wifi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/index.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/android/CordovaLocationListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/android/GPSListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/android/GeoBroker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/android/NetworkListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/Coordinates.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/Position.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/PositionError.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/geolocation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/MIT-LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/API.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/EXAMPLES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/INSTALLATION.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/ISSUES.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PAYLOAD.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PHONEGAP_BUILD.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/PLATFORM_SUPPORT.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/TYPESCRIPT.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushADM.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushAPNS.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushAzure.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/example/server/pushGCM.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/hooks/browser/updateManifest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/hooks/windows/setToastCapable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/.babelrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/.eslintignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/.eslintrc.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/CODE_OF_CONDUCT.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/circle.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/babel-plugin-add-header-comment/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/docco.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/install.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/aller-light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/roboto-black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/roboto-black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/fonts/roboto-black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/docs/public/stylesheets/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/install.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/scripts/docs.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/node_modules/install/scripts/prepublish.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/spec/helper/cordova.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/spec/index.spec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/BackgroundActionButtonHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/FCMService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushDismissedHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushHandlerActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushInstanceIDListenerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/android/com/adobe/phonegap/push/PushPlugin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/browser/ServiceWorker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/browser/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/AppDelegate+notification.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/AppDelegate+notification.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/PushPlugin.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/ios/PushPlugin.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/js/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/src/windows/PushPluginProxy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/www/browser/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/phonegap-plugin-push/www/push.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +974,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="41" />
+            <state relative-caret-position="508">
+              <caret line="101" column="203" lean-forward="false" selection-start-line="101" selection-start-column="203" selection-end-line="101" selection-end-column="203" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campos.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/campos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
+              <folding>
+                <marker date="1554790376149" expanded="true" signature="20959:21015" ph="SELECT codig... alumnos" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alumnos-proyecto-edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="682" column="98" lean-forward="false" selection-start-line="682" selection-start-column="95" selection-end-line="682" selection-end-column="98" />
+              <folding>
+                <marker date="1557147379884" expanded="true" signature="12188:12202" ph="..." />
+                <marker date="1557147379884" expanded="true" signature="12343:12357" ph="..." />
+                <marker date="1557147379884" expanded="true" signature="12487:12501" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="160" column="27" lean-forward="true" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+              <folding>
+                <marker date="1557147588233" expanded="true" signature="2860:2907" ph="UPDATE alumnos... " />
+                <marker date="1557147588233" expanded="true" signature="3112:3195" ph="SELECT * FRO... idiomas_textos" />
+                <marker date="1557147588233" expanded="true" signature="6429:6555" ph="SELECT * FRO... alumnos_horarios" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="672" column="24" lean-forward="false" selection-start-line="672" selection-start-column="8" selection-end-line="672" selection-end-column="24" />
+              <folding>
+                <marker date="1557146002660" expanded="true" signature="14860:15023" ph="SELECT solic... solicitudes" />
+                <marker date="1557146002660" expanded="true" signature="16468:16544" ph="UPDATE solicitudes... " />
+                <marker date="1557146002660" expanded="true" signature="16620:16697" ph="UPDATE presupuestos... " />
+                <marker date="1557146002660" expanded="true" signature="27428:27980" ph="SELECT solic... presupuestos" />
+                <marker date="1557146002660" expanded="true" signature="29572:30475" ph="SELECT CONCA... academias_precios_solicitudes" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portada_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/portada/portada_admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3519">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1547130226498" expanded="true" signature="1279:1285" ph=" " />
+                <marker date="1547130226498" expanded="true" signature="1730:1762" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_log" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,9 +1077,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ver_n</find>
-      <find>reboo</find>
-      <find>startOnBoot</find>
       <find>reb</find>
       <find>portada</find>
       <find>ver</find>
@@ -67,7 +1103,10 @@
       <find>com.google.android.gms:play-services-location:</find>
       <find>15.0</find>
       <find>com.google.gms.google-services</find>
+      <find>root</find>
       <find>geolocation</find>
+      <find>ADMI</find>
+      <find>571</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,6 +1131,8 @@
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-fcm/plugin.xml" />
         <option value="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/plugin.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php" />
       </list>
     </option>
   </component>
@@ -125,7 +1166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="V:/RE-CONNECTING EUROPE - Extranet 2012/web" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -156,12 +1197,12 @@
       <workItem from="1556529221941" duration="14374000" />
       <workItem from="1556605589629" duration="15395000" />
       <workItem from="1556778221025" duration="1396000" />
-      <workItem from="1557131166466" duration="7988000" />
+      <workItem from="1557131166466" duration="11293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39153000" />
+    <option name="totallyTimeSpent" value="42458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1357" y="0" width="1296" height="1010" extended-state="0" />
@@ -198,43 +1239,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/cordova-plugin-local-notification/src/android/notification/Notification.java" />
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/LocalNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/build/localnotification.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/RestoreReceiver.java" />
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/TriggerReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/RestoreReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractClickReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-local-notification/src/android/notification/receiver/AbstractRestoreReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-203">
@@ -398,14 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -414,11 +1410,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="274">
+            <caret line="860" column="4" lean-forward="false" selection-start-line="860" selection-start-column="4" selection-end-line="860" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="41" />
+        <state relative-caret-position="508">
+          <caret line="101" column="203" lean-forward="false" selection-start-line="101" selection-start-column="203" selection-end-line="101" selection-end-column="203" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/campos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <marker date="1554790376149" expanded="true" signature="20959:21015" ph="SELECT codig... alumnos" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/portada/portada_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3519">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1547130226498" expanded="true" signature="1279:1285" ph=" " />
+            <marker date="1547130226498" expanded="true" signature="1730:1762" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="672" column="24" lean-forward="false" selection-start-line="672" selection-start-column="8" selection-end-line="672" selection-end-column="24" />
+          <folding>
+            <marker date="1557146002660" expanded="true" signature="14860:15023" ph="SELECT solic... solicitudes" />
+            <marker date="1557146002660" expanded="true" signature="16468:16544" ph="UPDATE solicitudes... " />
+            <marker date="1557146002660" expanded="true" signature="16620:16697" ph="UPDATE presupuestos... " />
+            <marker date="1557146002660" expanded="true" signature="27428:27980" ph="SELECT solic... presupuestos" />
+            <marker date="1557146002660" expanded="true" signature="29572:30475" ph="SELECT CONCA... academias_precios_solicitudes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="682" column="98" lean-forward="false" selection-start-line="682" selection-start-column="95" selection-end-line="682" selection-end-column="98" />
+          <folding>
+            <marker date="1557147379884" expanded="true" signature="12188:12202" ph="..." />
+            <marker date="1557147379884" expanded="true" signature="12343:12357" ph="..." />
+            <marker date="1557147379884" expanded="true" signature="12487:12501" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="160" column="27" lean-forward="true" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+          <folding>
+            <marker date="1557147588233" expanded="true" signature="2860:2907" ph="UPDATE alumnos... " />
+            <marker date="1557147588233" expanded="true" signature="3112:3195" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557147588233" expanded="true" signature="6429:6555" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
         </state>
       </provider>
     </entry>
