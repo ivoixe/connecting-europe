@@ -36,9 +36,6 @@ var app = {
         app.receivedEvent('deviceready');
 
 
-
-
-
     },
 
     // Update DOM on a Received Event
@@ -181,9 +178,7 @@ function onSuccess(position) {
 //Si algo fallase al localizarnos...
 
 function onError(error) {
-
-    navigator.geolocation.getCurrentPosition(onSuccess, onError);
-
+    var new_id =  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: false });
 }
 
 //Posiciona el marcador en el MAPA basandose en nuestra geolocalización (vía clearWatch() o getCurrentPosition() al iniciar la app)

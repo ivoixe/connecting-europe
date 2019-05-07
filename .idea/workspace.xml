@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/www/js/funciones.js" afterPath="$PROJECT_DIR$/www/js/funciones.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="128" column="22" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="22" />
+            <state relative-caret-position="177">
+              <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -98,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>google-services.json</find>
       <find>app-</find>
       <find>google-services</find>
       <find>key</find>
@@ -118,7 +118,6 @@
       <find>ADMI</find>
       <find>571</find>
       <find>build.gradle</find>
-      <find>onER</find>
       <find>ALERT</find>
       <find>error status:</find>
       <find>guar</find>
@@ -128,6 +127,8 @@
       <find>carga_fichado()</find>
       <find>carga_fichado</find>
       <find>guarda</find>
+      <find>onER</find>
+      <find>onError</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,9 +152,9 @@
         <option value="$PROJECT_DIR$/plugins/cordova-background-geolocation-lt/plugin.xml" />
         <option value="V:/RE-CONNECTING EUROPE - Extranet 2012/web/privado/alumnos-proyecto/alumnos-proyecto-edit.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php" />
-        <option value="$PROJECT_DIR$/www/js/funciones.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/funciones.js" />
       </list>
     </option>
   </component>
@@ -224,12 +225,12 @@
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
-      <workItem from="1557210856239" duration="4938000" />
+      <workItem from="1557210856239" duration="5716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51181000" />
+    <option name="totallyTimeSpent" value="51959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -482,18 +483,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="128" column="22" lean-forward="false" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="177">
+          <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="19" />
           <folding />
         </state>
       </provider>
