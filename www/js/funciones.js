@@ -145,7 +145,7 @@ function carga_fichado() {
 
                 }, function(error){
 
-                    console.error(error);
+                    alert(error);
 
                 });
 
@@ -258,7 +258,7 @@ function initialize(lat,log) {
 
         }else{
 
-           // alert( "error status: " + status);
+           alert( "error status mpas ok : " + status);
 
             dir = "<p>El Servicio de Codificación Geográfica ha fallado con el siguiente error: " + status + ".</p>";
 
