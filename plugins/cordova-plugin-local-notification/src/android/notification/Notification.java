@@ -49,7 +49,6 @@ import static android.app.AlarmManager.RTC_WAKEUP;
 import static android.app.PendingIntent.FLAG_CANCEL_CURRENT;
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.M;
-import static android.support.v4.app.NotificationCompat.PRIORITY_HIGH;
 import static android.support.v4.app.NotificationManagerCompat.IMPORTANCE_MAX;
 import static android.support.v4.app.NotificationManagerCompat.IMPORTANCE_MIN;
 
@@ -116,7 +115,7 @@ public final class Notification {
     /**
      * Get application context.
      */
-   public Context getContext() {
+    public Context getContext () {
         return context;
     }
 
@@ -140,10 +139,6 @@ public final class Notification {
     private boolean isRepeating () {
         return getOptions().getTrigger().has("every");
     }
- public boolean isHighPrio() {
-        return getOptions().getPrio() >= PRIORITY_HIGH;
-    }
-
 
     /**
      * Notification type can be one of triggered or scheduled.
@@ -215,7 +210,7 @@ public final class Notification {
                     context, 0, intent, FLAG_CANCEL_CURRENT);
 
             try {
-                switch (options.getPrio()) {
+                switch (options.getPriority()) {
                     case IMPORTANCE_MIN:
                         mgr.setExact(RTC, time, pi);
                         break;

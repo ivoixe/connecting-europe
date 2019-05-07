@@ -128,7 +128,7 @@ public final class Builder {
                 .setExtras(extras)
                 .setOnlyAlertOnce(false)
                 .setChannelId(options.getChannel())
-                /*.setContentTitle(options.getTitle())*/
+                .setContentTitle(options.getTitle())
                 .setContentText(options.getText())
                 .setTicker(options.getText())
                 .setNumber(options.getNumber())
@@ -136,7 +136,7 @@ public final class Builder {
                 .setOngoing(options.isSticky())
                 .setColor(options.getColor())
                 .setVisibility(options.getVisibility())
-				.setPriority(options.getPrio())
+                .setPriority(options.getPriority())
                 .setShowWhen(options.getShowWhen())
                 .setUsesChronometer(options.isWithProgressBar())
                 .setGroup(options.getGroup())
@@ -155,8 +155,10 @@ public final class Builder {
         }
 
         if (options.hasLargeIcon()) {
+            builder.setSmallIcon(options.getSmallIcon());
             builder.setLargeIcon(options.getLargeIcon());
         } else {
+            builder.setSmallIcon(options.getSmallIcon());
         }
 
         applyStyle(builder);
@@ -219,8 +221,8 @@ public final class Builder {
 
         NotificationCompat.MessagingStyle style;
 
-        style = new NotificationCompat.MessagingStyle("Me");
-                /*.setConversationTitle(options.getTitle());*/
+        style = new NotificationCompat.MessagingStyle("Me")
+                .setConversationTitle(options.getTitle());
 
         for (Message msg : messages) {
             style.addMessage(msg);
@@ -312,12 +314,9 @@ public final class Builder {
             return;
 
         Intent intent = new Intent(context, clearReceiver)
-               
+                .putExtras(extras)
                 .setAction(options.getIdentifier())
                 .putExtra(Notification.EXTRA_ID, options.getId());
-				  if (extras != null) {
-            intent.putExtras(extras);
-        }
 
         int reqCode = random.nextInt();
 
@@ -339,14 +338,12 @@ public final class Builder {
             return;
 
         Intent intent = new Intent(context, clickActivity)
-               
+                .putExtras(extras)
                 .putExtra(Notification.EXTRA_ID, options.getId())
                 .putExtra(Action.EXTRA_ID, Action.CLICK_ACTION_ID)
                 .putExtra(Options.EXTRA_LAUNCH, options.isLaunchingApp())
                 .setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-   if (extras != null) {
-            intent.putExtras(extras);
-        }
+
         int reqCode = random.nextInt();
 
         PendingIntent contentIntent = PendingIntent.getActivity(
@@ -369,6 +366,7 @@ public final class Builder {
 
         for (Action action : actions) {
              btn = new NotificationCompat.Action.Builder(
+                     action.getIcon(), action.getTitle(),
                      getPendingIntentForAction(action));
 
             if (action.isWithInput()) {
@@ -387,14 +385,11 @@ public final class Builder {
      */
     private PendingIntent getPendingIntentForAction (Action action) {
         Intent intent = new Intent(context, clickActivity)
-             
+                .putExtras(extras)
                 .putExtra(Notification.EXTRA_ID, options.getId())
                 .putExtra(Action.EXTRA_ID, action.getId())
                 .putExtra(Options.EXTRA_LAUNCH, action.isLaunchingApp())
                 .setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-				 if (extras != null) {
-				intent.putExtras(extras);
-			}
 
         int reqCode = random.nextInt();
 

@@ -33,7 +33,7 @@ exports._defaults = {
     color         : null,
     data          : null,
     defaults      : 0,
-    foreground    : null,
+    foreground    : false,
     group         : null,
     groupSummary  : false,
     icon          : null,
@@ -47,7 +47,7 @@ exports._defaults = {
     progressBar   : false,
     showWhen      : true,
     silent        : false,
-    smallIcon     : null,
+    smallIcon     : 'res://icon',
     sound         : true,
     sticky        : false,
     summary       : null,
@@ -144,6 +144,10 @@ exports.convertProperties = function (options) {
 
     if (options.defaults) {
         options.defaults = parseToInt('defaults', options);
+    }
+
+    if (options.smallIcon && !options.smallIcon.match(/^res:/)) {
+        console.warn('Property "smallIcon" must be of kind res://...');
     }
 
     options.data = JSON.stringify(options.data);

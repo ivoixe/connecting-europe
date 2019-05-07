@@ -91,7 +91,7 @@ public final class Options {
      * @param context The application context.
      * @param options The options dict map.
      */
-    public Options(Context context, JSONObject options) {
+    Options(Context context, JSONObject options) {
         this.context = context;
         this.options = options;
         this.assets  = AssetUtil.getInstance(context);
@@ -232,8 +232,6 @@ public final class Options {
                     context.getPackageManager()).toString();
         }
 
-        title = "";
-
         return title;
     }
 
@@ -369,6 +367,24 @@ public final class Options {
     /**
      * Small icon resource ID for the local notification.
      */
+    int getSmallIcon() {
+        String icon = options.optString("smallIcon", DEFAULT_ICON);
+        int resId   = assets.getResId(icon);
+
+        if (resId == 0) {
+            resId = assets.getResId(DEFAULT_ICON);
+        }
+
+        if (resId == 0) {
+            resId = context.getApplicationInfo().icon;
+        }
+
+        if (resId == 0) {
+            resId = android.R.drawable.ic_popup_reminder;
+        }
+
+        return resId;
+    }
 
     /**
      * If the phone should vibrate.
@@ -456,7 +472,7 @@ public final class Options {
     /**
      * Gets the notifications priority.
      */
-      int getPrio() {
+    int getPriority() {
         int prio = options.optInt("priority");
 
         return Math.min(Math.max(prio, PRIORITY_MIN), PRIORITY_MAX);
