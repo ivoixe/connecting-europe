@@ -141,6 +141,7 @@ function carga_fichado() {
 
                     }else{
                         // Handle other cases
+                        alert('other causes');
                     }
 
                 }, function(error){
@@ -182,7 +183,7 @@ function onSuccess(position) {
 //Si algo fallase al localizarnos...
 
 function onError(error) {
-alert('de la funcion errror'+error);
+
    var id_err= navigator.geolocation.getCurrentPosition(onSuccess, onError);
     navigator.geolocation.clearWatch(id_err);
 }
@@ -712,7 +713,7 @@ function guardarPosicion(lat_actual,log_actual){
                 ons.notification.alert(resp.mensaje);
 
             }
-            map.setMap(null);
+
             window.fn.load('home.html');
 
         },
@@ -1194,9 +1195,6 @@ function calcula_ruta(directionsService, directionsDisplay,destino,modo,lat_actu
             }
 
             directionsDisplay.setDirections(response);
-
-
-
         }
 
     );
@@ -1209,8 +1207,6 @@ function requestLocation(){
   var id=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
   navigator.geolocation.clearWatch(id);
 }
-
-
 
 function datos_portada(){
 

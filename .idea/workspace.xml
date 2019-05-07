@@ -40,8 +40,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="178" column="72" lean-forward="true" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
+            <state relative-caret-position="58">
+              <caret line="1196" column="54" lean-forward="false" selection-start-line="1196" selection-start-column="54" selection-end-line="1196" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -148,18 +148,18 @@
       <find>save_</find>
       <find>getCurr</find>
       <find>clean</find>
-      <find>requestLocation</find>
       <find>clea</find>
       <find>getCurrentPosition</find>
       <find>window.fn</find>
       <find>map-canvas</find>
       <find>schedu</find>
       <find>onErr</find>
-      <find>save</find>
       <find>ficha</find>
       <find>map</find>
-      <find>fichar</find>
       <find>onE</find>
+      <find>save</find>
+      <find>fichar</find>
+      <find>requestLocation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,12 +257,12 @@
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
-      <workItem from="1557210856239" duration="12568000" />
+      <workItem from="1557210856239" duration="13082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58811000" />
+    <option name="totallyTimeSpent" value="59325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -542,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="178" column="72" lean-forward="true" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
+        <state relative-caret-position="58">
+          <caret line="1196" column="54" lean-forward="false" selection-start-line="1196" selection-start-column="54" selection-end-line="1196" selection-end-column="54" />
           <folding />
         </state>
       </provider>
