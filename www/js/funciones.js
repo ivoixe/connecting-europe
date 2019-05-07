@@ -149,6 +149,7 @@ function carga_fichado() {
             }
 
         }, onError), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
@@ -180,6 +181,7 @@ function onSuccess(position) {
 function onError(error) {
 
     var new_id =  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: false });
+    navigator.geolocation.clearWatch(new_id);
 }
 
 //Posiciona el marcador en el MAPA basandose en nuestra geolocalización (vía clearWatch() o getCurrentPosition() al iniciar la app)
@@ -1214,7 +1216,8 @@ function calcula_ruta(directionsService, directionsDisplay,destino,modo,lat_actu
 
 
 function requestLocation(){
-    navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+   var watchID=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+    navigator.geolocation.clearWatch(watchID);
 }
 
 
