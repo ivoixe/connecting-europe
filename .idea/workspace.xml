@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d1345fd-288a-448c-82d1-c82d8974c0d2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/plugins/browser.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/www/js/funciones.js" afterPath="$PROJECT_DIR$/www/js/funciones.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,12 +37,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="45" selection-end-line="186" selection-end-column="45" />
+            <state relative-caret-position="568">
+              <caret line="598" column="9" lean-forward="false" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+                <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+                <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,8 +158,8 @@
       <find>map</find>
       <find>map-canvas</find>
       <find>schedu</find>
-      <find>save</find>
       <find>onErr</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,6 +186,7 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/funciones.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php" />
       </list>
     </option>
   </component>
@@ -243,12 +257,12 @@
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
-      <workItem from="1557210856239" duration="11353000" />
+      <workItem from="1557210856239" duration="12062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57596000" />
+    <option name="totallyTimeSpent" value="58305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -285,7 +299,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-support-google-services/package.json" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-support-google-services/plugin.xml" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-support-google-services/build.gradle" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/www/firebase.js" />
@@ -517,9 +530,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="45" selection-end-line="186" selection-end-column="45" />
+        <state relative-caret-position="568">
+          <caret line="598" column="9" lean-forward="false" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+            <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
         </state>
       </provider>
     </entry>

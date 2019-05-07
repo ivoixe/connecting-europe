@@ -586,11 +586,6 @@ function cargar_mas_cercanos(distancia){
                 $("#sitio").append('<option '+sel+' id="sitio_'+resp['sitios'][i].id+'" value="' + resp['sitios'][i].latitud +',' + resp['sitios'][i].longitud +'">' + resp['sitios'][i].nombre+ resp['sitios'][i].id+'</option>');
 
             }
-
-
-
-
-
         },
 
         error: function(){
@@ -717,6 +712,7 @@ function guardarPosicion(lat_actual,log_actual){
                 ons.notification.alert(resp.mensaje);
 
             }
+            map.setMap(null);
             window.fn.load('home.html');
 
         },
