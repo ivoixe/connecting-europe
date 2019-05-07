@@ -145,7 +145,7 @@ function carga_fichado() {
 
                 }, function(error){
 
-                    console.error(error);
+                    alert(error);
 
                 });
 
@@ -182,7 +182,7 @@ function onSuccess(position) {
 //Si algo fallase al localizarnos...
 
 function onError(error) {
-
+alert('de la funcion errror'+error);
    var id_err= navigator.geolocation.getCurrentPosition(onSuccess, onError);
     navigator.geolocation.clearWatch(id_err);
 }

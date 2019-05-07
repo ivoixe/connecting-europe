@@ -31,23 +31,23 @@
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="306" column="18" lean-forward="false" selection-start-line="306" selection-start-column="18" selection-end-line="306" selection-end-column="28" />
+              <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="598" column="9" lean-forward="false" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
+            <state relative-caret-position="177">
+              <caret line="178" column="72" lean-forward="true" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solo_configuracion.php" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -130,9 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>guar</find>
-      <find>guardarPosicion</find>
-      <find>schedule</find>
       <find>carga_fichado()</find>
       <find>carga_fichado</find>
       <find>guarda</find>
@@ -155,11 +152,14 @@
       <find>clea</find>
       <find>getCurrentPosition</find>
       <find>window.fn</find>
-      <find>map</find>
       <find>map-canvas</find>
       <find>schedu</find>
       <find>onErr</find>
       <find>save</find>
+      <find>ficha</find>
+      <find>map</find>
+      <find>fichar</find>
+      <find>onE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,8 +185,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/solo_configuracion.php" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/funciones.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php" />
+        <option value="$PROJECT_DIR$/www/js/funciones.js" />
       </list>
     </option>
   </component>
@@ -257,12 +257,12 @@
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
-      <workItem from="1557210856239" duration="12062000" />
+      <workItem from="1557210856239" duration="12568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58305000" />
+    <option name="totallyTimeSpent" value="58811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -512,6 +512,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+            <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -523,28 +535,16 @@
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="306" column="18" lean-forward="false" selection-start-line="306" selection-start-column="18" selection-end-line="306" selection-end-column="28" />
+          <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="598" column="9" lean-forward="false" selection-start-line="598" selection-start-column="9" selection-end-line="598" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="178" column="72" lean-forward="true" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
-            <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
-            <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
-          </folding>
         </state>
       </provider>
     </entry>
