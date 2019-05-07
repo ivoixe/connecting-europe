@@ -742,7 +742,7 @@ function  limpiar(){
 
         success: function(resp){
             window.fn.load('home.html');
-            datos_portada();
+           // datos_portada();
 
         },
 
