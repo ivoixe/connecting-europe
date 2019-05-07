@@ -49,8 +49,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="740" column="0" lean-forward="true" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
+            <state relative-caret-position="415">
+              <caret line="739" column="30" lean-forward="false" selection-start-line="739" selection-start-column="30" selection-end-line="739" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -134,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>No se ha pr</find>
       <find>$mensaje['error']</find>
       <find>ya</find>
       <find>onerror</find>
@@ -164,6 +163,7 @@
       <find>location.href</find>
       <find>limpia</find>
       <find>home.</find>
+      <find>window</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,12 +267,12 @@
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
       <workItem from="1557210856239" duration="15149000" />
-      <workItem from="1557235721835" duration="2794000" />
+      <workItem from="1557235721835" duration="3189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64186000" />
+    <option name="totallyTimeSpent" value="64581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -535,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="740" column="0" lean-forward="true" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
+        <state relative-caret-position="415">
+          <caret line="739" column="30" lean-forward="false" selection-start-line="739" selection-start-column="30" selection-end-line="739" selection-end-column="30" />
           <folding />
         </state>
       </provider>

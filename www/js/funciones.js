@@ -714,7 +714,7 @@ function guardarPosicion(lat_actual,log_actual){
 
             }
 
-          limpiar();
+
 
         },
 
@@ -737,7 +737,7 @@ function  limpiar(){
         dataType: "html",
         type:'GET',
         success: function(resp){
-         initialize(lat_actual,log_actual);
+            location.reload();
 
         },
 
