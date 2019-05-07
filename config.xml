@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.connectingEurope.app" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.connectingEuropeTEST.app" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="phonegap-version" value="cli-7.1.0" />
-    <name>Connecting Europe</name>
+    <name>ConnectingTest</name>
     <description>Sistema de localización y fichado</description>
     <author email="ivonne@prismacm.com" href="http://phonegap.com">IVONNE</author>
     <content src="index.html" />
@@ -53,6 +53,12 @@
         <splash density="xhdpi" src="res/drawable-xhdpi/screen.png" />
         <splash density="xxhdpi" src="res/drawable-xhdpi/screen.png" />
         <splash density="xxxhdpi" src="res/drawable-xhdpi/screen.png" />
+        <resource-file src="res/android/notification_icon/drawable-ldpi/notification_icon.png" target="app/src/main/res/drawable-ldpi/notification_icon.png"/>
+        <resource-file src="res/android/notification_icon/drawable-mdpi/notification_icon.png" target="app/src/main/res/drawable-mdpi/notification_icon.png"/>
+        <resource-file src="res/android/notification_icon/drawable-hdpi/notification_icon.png" target="app/src/main/res/drawable-hdpi/notification_icon.png"/>
+        <resource-file src="res/android/notification_icon/drawable-xhdpi/notification_icon.png" target="app/src/main/res/drawable-xhdpi/notification_icon.png"/>
+        <resource-file src="res/android/notification_icon/drawable-xxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxhdpi/notification_icon.png"/>
+        <resource-file src="res/android/notification_icon/drawable-xxxhdpi/notification_icon.png" target="app/src/main/res/drawable-xxxhdpi/notification_icon.png"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -107,6 +113,4 @@
     </plugin>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
     <plugin name="cordova-plugin-local-notification" />
-
-
 </widget>
