@@ -36,6 +36,9 @@ var app = {
         app.receivedEvent('deviceready');
 
 
+
+
+
     },
 
     // Update DOM on a Received Event
@@ -149,7 +152,6 @@ function carga_fichado() {
             }
 
         }, onError), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
@@ -180,8 +182,8 @@ function onSuccess(position) {
 
 function onError(error) {
 
-    var new_id =  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: false });
-    navigator.geolocation.clearWatch(new_id);
+    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
 }
 
 //Posiciona el marcador en el MAPA basandose en nuestra geolocalización (vía clearWatch() o getCurrentPosition() al iniciar la app)
@@ -677,13 +679,9 @@ function guardarPosicion(lat_actual,log_actual){
         success: function(resp){
 
             if(resp.error){
-                ons.notification.alert({
-                    message:resp.error,
-                    title:'',
-                    maskColor:'rgba(255, 0, 0, 0.3)'
-                });
 
-                window.fn.load('home.html');
+                alert('res'+resp.error);
+
             }else{
 
                 var datos =[];
@@ -702,8 +700,11 @@ function guardarPosicion(lat_actual,log_actual){
                 });
 
                 $.each(resp.datas, function(i, item){
+
                     datos.push(item);
+
                     localStorage.setItem('horario_'+item,item.horario_entrada);
+
                 });
 
                 localStorage.removeItem('horarios');
@@ -719,9 +720,10 @@ function guardarPosicion(lat_actual,log_actual){
                 localStorage.setItem('datos',JSON.stringify(resp.datos));
 
                 localStorage.setItem('empresa',JSON.stringify(resp.empresa));
-                 //recargarHorarios();
+
+                // recargarHorarios();
+
                 ons.notification.alert(resp.mensaje);
-                 window.fn.load('home.html');
 
             }
 
@@ -1216,8 +1218,7 @@ function calcula_ruta(directionsService, directionsDisplay,destino,modo,lat_actu
 
 
 function requestLocation(){
-   var watchID=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(watchID);
+    navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
 }
 
 
@@ -1270,14 +1271,14 @@ function datos_portada(){
         ver_notificacion();
 
 
-            /*FCMPlugin.onTokenRefresh(function(token){
+        /*FCMPlugin.onTokenRefresh(function(token){
+              localStorage.setItem("token", token);
+          });
+          if (typeof FCMPlugin != 'undefined') {
+              FCMPlugin.getToken(function (token) {
                   localStorage.setItem("token", token);
               });
-              if (typeof FCMPlugin != 'undefined') {
-                  FCMPlugin.getToken(function (token) {
-                      localStorage.setItem("token", token);
-                  });
-              }*/
+          }*/
 
 
         $('#login').remove();
@@ -1680,7 +1681,7 @@ function ver_notificacion(){
             //alert(item.horario_entrada);
             localNotificationsArray.push({
                 id: i,
-               // at: dtTodap,
+                // at: dtTodap,
                 trigger:{
                     at: dtTodap
                 },
@@ -1691,9 +1692,11 @@ function ver_notificacion(){
                 every: "minute",
                 wakeup: true,
                 vibrate: true,
-                icon: "res://my_notification_icon",
-                smallIcon:"res://my_notification_icon"
-				});
+                /*icon: "res://ic_popup_reminder",
+                smallIcon:"res://ic_popup_reminder"*/
+                icon: "file://icon.png",
+                smallIcon:"res://ic_stat_onesignal_default"
+            });
         });
     }
 
@@ -1730,7 +1733,7 @@ function ver_notificacion(){
                 isAndroid = true;
             }
             try{
-               if(localNotificationsArray) cordova.plugins.notification.local.schedule(localNotificationsArray);
+                if(localNotificationsArray) cordova.plugins.notification.local.schedule(localNotificationsArray);
             } catch (e) {
 
                 console.log(e);
