@@ -733,16 +733,11 @@ function guardarPosicion(lat_actual,log_actual){
 }
 function  limpiar(){
         $.ajax({
-
         url:location.href,
-
         dataType: "html",
-
         type:'GET',
-
         success: function(resp){
-            window.fn.load('home.html');
-           // datos_portada();
+         initialize(lat_actual,log_actual);
 
         },
 

@@ -16,6 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="campos.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-no-socios/campos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
+              <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -39,8 +49,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="745" column="0" lean-forward="true" selection-start-line="745" selection-start-column="0" selection-end-line="745" selection-end-column="0" />
+            <state relative-caret-position="568">
+              <caret line="740" column="0" lean-forward="true" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,6 +72,19 @@
             <state relative-caret-position="612">
               <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salidas-federadas-edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-federadas/salidas-federadas-edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="78" column="244" lean-forward="false" selection-start-line="78" selection-start-column="244" selection-end-line="78" selection-end-column="244" />
+              <folding>
+                <marker date="1557238114334" expanded="true" signature="11816:11844" ph="..." />
+                <marker date="1557238114334" expanded="true" signature="16461:16489" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>No se ha</find>
       <find>No se ha pr</find>
       <find>$mensaje['error']</find>
       <find>ya</find>
@@ -141,6 +163,7 @@
       <find>limpiar</find>
       <find>location.href</find>
       <find>limpia</find>
+      <find>home.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,6 +193,8 @@
         <option value="V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/php/scripts/list.php" />
         <option value="V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-realizadas-federacion/campos.php" />
         <option value="V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-federadas/index.php" />
+        <option value="V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-federadas/salidas-federadas-edit.php" />
+        <option value="V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-no-socios/campos.php" />
         <option value="$PROJECT_DIR$/www/js/funciones.js" />
       </list>
     </option>
@@ -242,12 +267,12 @@
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
       <workItem from="1557210856239" duration="15149000" />
-      <workItem from="1557235721835" duration="1353000" />
+      <workItem from="1557235721835" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62745000" />
+    <option name="totallyTimeSpent" value="64186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -284,7 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/plugin.xml" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/src/android/build-extras.gradle" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-firebase/package.json" />
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-fcm/package.json" />
@@ -466,14 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-federadas/salidas-federadas-edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="269" column="25" lean-forward="true" selection-start-line="269" selection-start-column="25" selection-end-line="269" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-realizadas-federacion/campos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -490,18 +506,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-federadas/salidas-federadas-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="78" column="244" lean-forward="false" selection-start-line="78" selection-start-column="244" selection-end-line="78" selection-end-column="244" />
+          <folding>
+            <marker date="1557238114334" expanded="true" signature="11816:11844" ph="..." />
+            <marker date="1557238114334" expanded="true" signature="16461:16489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/privado/salidas-no-socios/campos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
+          <caret line="106" column="41" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="745" column="0" lean-forward="true" selection-start-line="745" selection-start-column="0" selection-end-line="745" selection-end-column="0" />
+        <state relative-caret-position="568">
+          <caret line="740" column="0" lean-forward="true" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
           <folding />
         </state>
       </provider>
