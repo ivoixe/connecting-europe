@@ -229,8 +229,6 @@ function initialize(lat,log) {
 
     directionsDisplay.setMap(map);
 
-
-
     var dir="";
 
     var element = document.getElementById('resultado');
@@ -667,7 +665,7 @@ function guardarPosicion(lat_actual,log_actual){
 
             if(resp.error){
 
-                alert('res'+resp.error);
+                ons.notification.alert('res'+resp.error);
 
             }else{
 
@@ -737,7 +735,7 @@ function  limpiar(){
         dataType: "html",
         type:'GET',
         success: function(resp){
-            location.reload();
+
 
         },
 
