@@ -159,9 +159,6 @@ function setLugar(){
 }
 
 function onSuccessProgress(position){
-
-
-
     //alert(position.coords.latitude + position.coords.longitude);
 
     guardarPosicionAtTime(position.coords.latitude,position.coords.longitude,position.coords.longitude);
@@ -175,7 +172,6 @@ function onSuccess(position) {
     //alert('posicion'+position);
     //datos_portada();
     initialize(position.coords.latitude,position.coords.longitude);
-    guardarPosicion(position.coords.latitude,position.coords.longitude);
     return position;
 }
 //Si algo fallase al localizarnos...
@@ -211,9 +207,6 @@ function initialize(lat,log) {
         mapTypeId: 'roadmap'
 
     }
-
-
-
     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
 
     $('#map-canvas').css( 'height','500px');
@@ -256,6 +249,7 @@ function initialize(lat,log) {
                 dir = "<p><strong>localización actual: </strong>" + results[0].formatted_address + "</p>";
                 lat_actual = lat;
                 log_actual = log;
+                guardarPosicion(lat_actual,log_actual);
                 //navigator.splashscreen.hide();
             }else{
                 alert('esta llendo por un lado que no es');
@@ -280,15 +274,7 @@ function initialize(lat,log) {
 
 }
 
-
-
-
-
-
-
 //CALCULA LA RUTA EN BASE AL MODO DE TRANSPORTE
-
-
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay,destino,modo) {
 
@@ -1680,7 +1666,7 @@ function ver_notificacion(){
             /******************************************************/
             //alert(item.horario_entrada);
             localNotificationsArray.push({
-                id: i,
+                id: item.id,
                // at: dtTodap,
                 trigger:{
                     at: dtTodap
