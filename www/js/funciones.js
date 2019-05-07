@@ -732,8 +732,27 @@ function guardarPosicion(lat_actual,log_actual){
 
 }
 function  limpiar(){
-    recargarHorarios();
-    window.fn.load('home.html');
+        $.ajax({
+
+        url:location.href,
+
+        dataType: "html",
+
+        type:'GET',
+
+        success: function(resp){
+            window.fn.load('home.html');
+            datos_portada();
+
+        },
+
+        error: function(e){
+
+            alert('error'+e.status);
+
+        }
+
+    });
 }
 function guardarPosicionAtTime(lat_actual,log_actual,direccion){
 

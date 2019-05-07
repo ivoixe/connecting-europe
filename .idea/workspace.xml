@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4386">
+            <state relative-caret-position="262">
               <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
               <folding />
             </state>
@@ -39,8 +39,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="744" column="0" lean-forward="true" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+            <state relative-caret-position="568">
+              <caret line="716" column="20" lean-forward="true" selection-start-line="716" selection-start-column="20" selection-end-line="716" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -111,11 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>guarda</find>
-      <find>onER</find>
-      <find>onError</find>
-      <find>fichado</find>
-      <find>No se</find>
       <find>No se ha</find>
       <find>No se ha pr</find>
       <find>$mensaje['error']</find>
@@ -141,6 +136,11 @@
       <find>requestLocation</find>
       <find>socios</find>
       <find>no socios</find>
+      <find>window.fn.load</find>
+      <find>recargarHorarios</find>
+      <find>limpiar</find>
+      <find>location.href</find>
+      <find>limpia</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,12 +242,12 @@
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
       <workItem from="1557210856239" duration="15149000" />
-      <workItem from="1557235721835" duration="505000" />
+      <workItem from="1557235721835" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61897000" />
+    <option name="totallyTimeSpent" value="62333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -450,14 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4386">
-          <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://V:/SUBACUATICAS - Gestor Seccion y zona privada de socios/web/php/scripts/list-view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6375">
@@ -498,10 +490,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="258" column="98" lean-forward="false" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="744" column="0" lean-forward="true" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+        <state relative-caret-position="568">
+          <caret line="716" column="20" lean-forward="true" selection-start-line="716" selection-start-column="20" selection-end-line="716" selection-end-column="20" />
           <folding />
         </state>
       </provider>
