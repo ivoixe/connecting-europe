@@ -203,17 +203,10 @@ function initialize(lat,log) {
     var latlng = new google.maps.LatLng(lat,log);
 
     var mapOptions = {
-
         zoom:12,
-
         center: latlng,
-
         mapTypeId: 'roadmap'
-
     }
-
-
-
     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
 
     $('#map-canvas').css( 'height','500px');
@@ -726,6 +719,7 @@ function guardarPosicion(lat_actual,log_actual){
                 ons.notification.alert(resp.mensaje);
 
             }
+            window.fn.load('home.html');
 
         },
 
