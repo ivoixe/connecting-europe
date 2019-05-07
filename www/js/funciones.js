@@ -714,7 +714,7 @@ function guardarPosicion(lat_actual,log_actual){
 
             }
 
-          // limpiar();
+          limpiar();
 
         },
 
@@ -733,6 +733,7 @@ function guardarPosicion(lat_actual,log_actual){
 }
 function  limpiar(){
     recargarHorarios();
+    window.fn.load('home.html');
 }
 function guardarPosicionAtTime(lat_actual,log_actual,direccion){
 
