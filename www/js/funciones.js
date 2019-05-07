@@ -683,7 +683,7 @@ function guardarPosicion(lat_actual,log_actual){
                     maskColor:'rgba(255, 0, 0, 0.3)'
                 });
 
-
+                window.fn.load('home.html');
             }else{
 
                 var datos =[];
