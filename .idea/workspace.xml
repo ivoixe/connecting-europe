@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-387">
-              <caret line="40" column="123" lean-forward="false" selection-start-line="40" selection-start-column="123" selection-end-line="40" selection-end-column="123" />
+            <state relative-caret-position="262">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -40,9 +40,26 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="19" />
+            <state relative-caret-position="585">
+              <caret line="714" column="77" lean-forward="true" selection-start-line="714" selection-start-column="77" selection-end-line="714" selection-end-column="77" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/save_data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="218" column="9" lean-forward="false" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
+              <folding>
+                <marker date="1557220806836" expanded="true" signature="3657:3698" ph="UPDATE alumnos... " />
+                <marker date="1557220806836" expanded="true" signature="3984:4067" ph="SELECT * FRO... idiomas_textos" />
+                <marker date="1557220806836" expanded="true" signature="6872:6999" ph="SELECT * FRO... alumnos_horarios" />
+                <marker date="1557220806836" expanded="true" signature="8974:9215" ph="SELECT * FRO... alumnos_horarios" />
+                <marker date="1557220806836" expanded="true" signature="9531:9863" ph="UPDATE alumnos_horarios... " />
+                <marker date="1557220806836" expanded="true" signature="9935:10176" ph="SELECT * FRO... alumnos_horarios" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,17 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app-</find>
-      <find>google-services</find>
-      <find>key</find>
-      <find>AIzaSyD6cz9NsGdNE_K-eXAsZedHCNEaZRku63s</find>
-      <find>com.google.android.gms</find>
-      <find>dependency</find>
-      <find>9.0.0</find>
-      <find>whiye</find>
-      <find>framework</find>
-      <find>om.google.android.gms</find>
-      <find>com.google.android.gms:play-services-location:15.+</find>
       <find>com.google.android.gms:play-services-location:</find>
       <find>15.0</find>
       <find>com.google.gms.google-services</find>
@@ -129,6 +135,17 @@
       <find>guarda</find>
       <find>onER</find>
       <find>onError</find>
+      <find>fichado</find>
+      <find>No se</find>
+      <find>No se ha</find>
+      <find>No se ha pr</find>
+      <find>save</find>
+      <find>$mensaje['error']</find>
+      <find>ya</find>
+      <find>onerror</find>
+      <find>nerror</find>
+      <find>ver_no</find>
+      <find>load</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,12 +242,12 @@
       <workItem from="1556778221025" duration="1396000" />
       <workItem from="1557131166466" duration="11293000" />
       <workItem from="1557148876350" duration="3785000" />
-      <workItem from="1557210856239" duration="5716000" />
+      <workItem from="1557210856239" duration="8049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51959000" />
+    <option name="totallyTimeSpent" value="54292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -267,16 +284,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-fetch/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2075">
-            <caret line="219" column="77" lean-forward="true" selection-start-line="219" selection-start-column="77" selection-end-line="219" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-background-mode/src/android/ForegroundService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -475,14 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="40" column="123" lean-forward="false" selection-start-line="40" selection-start-column="123" selection-end-line="40" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -491,10 +490,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/save_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="218" column="9" lean-forward="false" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
+          <folding>
+            <marker date="1557220806836" expanded="true" signature="3657:3698" ph="UPDATE alumnos... " />
+            <marker date="1557220806836" expanded="true" signature="3984:4067" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557220806836" expanded="true" signature="6872:6999" ph="SELECT * FRO... alumnos_horarios" />
+            <marker date="1557220806836" expanded="true" signature="8974:9215" ph="SELECT * FRO... alumnos_horarios" />
+            <marker date="1557220806836" expanded="true" signature="9531:9863" ph="UPDATE alumnos_horarios... " />
+            <marker date="1557220806836" expanded="true" signature="9935:10176" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="4" selection-end-line="174" selection-end-column="19" />
+        <state relative-caret-position="585">
+          <caret line="714" column="77" lean-forward="true" selection-start-line="714" selection-start-column="77" selection-end-line="714" selection-end-column="77" />
           <folding />
         </state>
       </provider>

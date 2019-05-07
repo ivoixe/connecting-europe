@@ -178,6 +178,7 @@ function onSuccess(position) {
 //Si algo fallase al localizarnos...
 
 function onError(error) {
+
     var new_id =  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: false });
 }
 
@@ -674,8 +675,12 @@ function guardarPosicion(lat_actual,log_actual){
         success: function(resp){
 
             if(resp.error){
+                ons.notification.alert({
+                    message:resp.error,
+                    title:'',
+                    maskColor:'rgba(255, 0, 0, 0.3)'
+                });
 
-                alert('res'+resp.error);
 
             }else{
 
@@ -695,11 +700,8 @@ function guardarPosicion(lat_actual,log_actual){
                 });
 
                 $.each(resp.datas, function(i, item){
-
                     datos.push(item);
-
                     localStorage.setItem('horario_'+item,item.horario_entrada);
-
                 });
 
                 localStorage.removeItem('horarios');
@@ -715,10 +717,9 @@ function guardarPosicion(lat_actual,log_actual){
                 localStorage.setItem('datos',JSON.stringify(resp.datos));
 
                 localStorage.setItem('empresa',JSON.stringify(resp.empresa));
-
-                // recargarHorarios();
-
+                 //recargarHorarios();
                 ons.notification.alert(resp.mensaje);
+                 window.fn.load('home.html');
 
             }
 
