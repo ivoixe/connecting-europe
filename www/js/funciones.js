@@ -112,7 +112,7 @@ var ultimo_resultado = {};
 var directionsDisplay = new google.maps.DirectionsRenderer;
 
 var directionsService = new google.maps.DirectionsService;
-
+var nuevo_mapa= new google.maps.event.addDomListener;
 var circulo =  new google.maps.Circle();
 
 
@@ -127,6 +127,9 @@ var marker =new google.maps.Marker();
 
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
+    var id=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+    navigator.geolocation.clearWatch(id);
+    /*
     directionsDisplay.setDirections({routes: []});
     var watchID = navigator.geolocation.getCurrentPosition(onSuccess,
         cordova.plugins.diagnostic.getLocationAuthorizationStatus(function(status){
@@ -153,7 +156,7 @@ function carga_fichado() {
             }
 
         }, onError), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(watchID);
+    navigator.geolocation.clearWatch(watchID);*/
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
@@ -161,15 +164,8 @@ function setLugar(){
 }
 
 function onSuccessProgress(position){
-
-
-
     //alert(position.coords.latitude + position.coords.longitude);
-
     guardarPosicionAtTime(position.coords.latitude,position.coords.longitude,position.coords.longitude);
-
-
-
 }
 
 function onSuccess(position) {
@@ -177,6 +173,7 @@ function onSuccess(position) {
     //alert('posicion'+position);
     //datos_portada();
     initialize(position.coords.latitude,position.coords.longitude);
+    nuevo_mapa(window, "load", initialize);
     //guardarPosicion(position.coords.latitude,position.coords.longitude);
     return position;
 }
