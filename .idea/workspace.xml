@@ -39,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
+            <state relative-caret-position="-1404">
               <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="24" />
               <folding />
             </state>
@@ -49,8 +49,8 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="188" column="44" lean-forward="true" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
+            <state relative-caret-position="561">
+              <caret line="256" column="0" lean-forward="true" selection-start-line="255" selection-start-column="68" selection-end-line="256" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,8 +162,8 @@
       <find>onSuccess</find>
       <find>getCurrentPosition</find>
       <find>cargar_info_empresa</find>
-      <find>carga_fi</find>
       <find>map</find>
+      <find>carga_fi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -268,12 +268,12 @@
       <workItem from="1557148876350" duration="3785000" />
       <workItem from="1557210856239" duration="15149000" />
       <workItem from="1557235721835" duration="3719000" />
-      <workItem from="1557296066173" duration="1679000" />
+      <workItem from="1557296066173" duration="3305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66790000" />
+    <option name="totallyTimeSpent" value="68416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="1294" height="1001" extended-state="0" />
@@ -455,18 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
-            <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
-            <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -525,9 +513,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/solo_configuracion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1557228625187" expanded="true" signature="2864:2911" ph="UPDATE alumnos... " />
+            <marker date="1557228625187" expanded="true" signature="3116:3199" ph="SELECT * FRO... idiomas_textos" />
+            <marker date="1557228625187" expanded="true" signature="6433:6559" ph="SELECT * FRO... alumnos_horarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
+        <state relative-caret-position="-1404">
           <caret line="175" column="24" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="24" />
           <folding />
         </state>
@@ -535,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="188" column="44" lean-forward="true" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
+        <state relative-caret-position="561">
+          <caret line="256" column="0" lean-forward="true" selection-start-line="255" selection-start-column="68" selection-end-line="256" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -149,7 +149,7 @@ function onSuccess(position) {
     //alert('posicion'+position);
     //datos_portada();
     initialize(position.coords.latitude,position.coords.longitude);
-    guardarPosicion(position.coords.latitude,position.coords.longitude);
+   // guardarPosicion(position.coords.latitude,position.coords.longitude);
     return position;
 }
 //Si algo fallase al localizarnos...
@@ -220,17 +220,7 @@ mapa_encontrar.css( 'height','500px');
     });
 
 }
-
-
-
-
-
-
-
 //CALCULA LA RUTA EN BASE AL MODO DE TRANSPORTE
-
-
-
 function calculateAndDisplayRoute(directionsService, directionsDisplay,destino,modo) {
 
 
