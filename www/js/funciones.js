@@ -148,13 +148,14 @@ function carga_fichado() {
         }, onErrorG), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
     navigator.geolocation.clearWatch(watchID);
 }
+function onErrorG(){
+    alert('sssss');
+}
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
 
 }
-function onErrorG() {
-    alert('ssssss');
-}
+
 function onSuccessProgress(position){
     //alert(position.coords.latitude + position.coords.longitude);
 
@@ -199,8 +200,7 @@ function initialize(lat,log) {
     var mapOptions = {
         zoom:12,
         center: latlng,
-        mapTypeId: 'roadmap',
-        map:map
+        mapTypeId: 'roadmap'
     }
 
     marker = new google.maps.Marker({
@@ -217,7 +217,7 @@ function initialize(lat,log) {
 
     /*Con esto marcamos la ruta en el mapa*/
 
-    directionsDisplay.setMap(map);
+   // directionsDisplay.setMap(map);
 
     var dir="";
 
