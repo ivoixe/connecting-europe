@@ -129,6 +129,7 @@ function carga_fichado() {
                 cordova.plugins.diagnostic.requestLocationAuthorization(function(status){
 
                     if(status == "GRANTED"){
+
                         requestLocation();
 
                     }else{
@@ -144,15 +145,15 @@ function carga_fichado() {
 
             }
 
-        }, onErrorgranted),{maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+        }, onErrorG), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
     navigator.geolocation.clearWatch(watchID);
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
 
 }
-function onErrorgranted(){
-    alert('error granted');
+function onErrorG() {
+    alert('ssssss');
 }
 function onSuccessProgress(position){
     //alert(position.coords.latitude + position.coords.longitude);
@@ -174,6 +175,7 @@ function onSuccess(position) {
 //Si algo fallase al localizarnos...
 
 function onError(error) {
+
    var id_err= navigator.geolocation.getCurrentPosition(onSuccess, onError);
     navigator.geolocation.clearWatch(id_err);
 }
@@ -247,6 +249,7 @@ function initialize(lat,log) {
             dir = "<p>El Servicio de Codificación Geográfica ha fallado con el siguiente error: " + status + ".</p>";
 
         }
+
 
 
         //element.innerHTML = dir;
