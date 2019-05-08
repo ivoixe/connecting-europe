@@ -116,13 +116,10 @@ var circulo =  new google.maps.Circle();
 var marker_nearest =new google.maps.Marker();
 
 var marker =new google.maps.Marker();
-var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
+var map = new google.maps.Map(document.getElementById('map-canvas') );
 
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
-  /*  var id=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(id);
-    */
     directionsDisplay.setDirections({routes: []});
     var watchID = navigator.geolocation.getCurrentPosition(onSuccess,
         cordova.plugins.diagnostic.getLocationAuthorizationStatus(function(status){
@@ -200,9 +197,10 @@ function initialize(lat,log) {
     var mapOptions = {
         zoom:12,
         center: latlng,
-        mapTypeId: 'roadmap'
+        mapTypeId: 'roadmap',
+        map:map
     }
-    map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
+
     marker = new google.maps.Marker({
 
         position: latlng,
@@ -249,8 +247,7 @@ function initialize(lat,log) {
             dir = "<p>El Servicio de Codificación Geográfica ha fallado con el siguiente error: " + status + ".</p>";
 
         }
-
-
+ 
 
         //element.innerHTML = dir;
 
