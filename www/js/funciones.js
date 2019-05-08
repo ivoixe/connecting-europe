@@ -117,11 +117,7 @@ var marker_nearest =new google.maps.Marker();
 
 var marker =new google.maps.Marker();
 var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
-
-
-
-
-
+directionsDisplay.setMap(map);
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
     directionsDisplay.setDirections({routes: []});
@@ -204,7 +200,6 @@ function initialize(lat,log) {
         mapTypeId: 'roadmap'
     }
 
-
     marker = new google.maps.Marker({
 
         position: latlng,
@@ -219,7 +214,7 @@ function initialize(lat,log) {
 
     /*Con esto marcamos la ruta en el mapa*/
 
-    directionsDisplay.setMap(map);
+
 
     var dir="";
 
