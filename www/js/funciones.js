@@ -35,10 +35,6 @@ var app = {
 
         app.receivedEvent('deviceready');
 
-
-
-
-
     },
 
     // Update DOM on a Received Event
@@ -100,30 +96,15 @@ var app = {
 };
 
 var lat_actual = 0;
-
 var log_actual = 0;
-
 var distancia1 = 0;
-
 var map;
-
 var ultimo_resultado = {};
-
 var directionsDisplay = new google.maps.DirectionsRenderer;
-
 var directionsService = new google.maps.DirectionsService;
-
 var circulo =  new google.maps.Circle();
-
-
-
 var marker_nearest =new google.maps.Marker();
-
 var marker =new google.maps.Marker();
-
-
-
-
 
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
@@ -157,19 +138,10 @@ function carga_fichado() {
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
-
 }
-
 function onSuccessProgress(position){
-
-
-
     //alert(position.coords.latitude + position.coords.longitude);
-
     guardarPosicionAtTime(position.coords.latitude,position.coords.longitude,position.coords.longitude);
-
-
-
 }
 
 function onSuccess(position) {
@@ -195,53 +167,36 @@ function initialize(lat,log) {
         Basado en un código en
         https://developers.google.com/maps/documentation/javascript/geocoding?hl=es#GeocodingResponses
     */
-
     //alert(lat+log);
-
     var geocoder;
-
     var infowindow = new google.maps.InfoWindow();
-
     var latlng = new google.maps.LatLng(lat,log);
-
     var mapOptions = {
         zoom:12,
         center: latlng,
         mapTypeId: 'roadmap'
     }
     map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
-
-    $('#map-canvas').css( 'height','500px');
-
+    $(document).find('#map-canvas').css( 'height','500px');
     marker = new google.maps.Marker({
-
         position: latlng,
-
         icon: 'img/man.png',
-
         map: map,
-
         title: 'Estas aquí!'
-
     });
 
     /*Con esto marcamos la ruta en el mapa*/
 
     directionsDisplay.setMap(map);
-
     var dir="";
-
     var element = document.getElementById('resultado');
 
     geocoder = new google.maps.Geocoder();
-
     geocoder.geocode({"latLng": latlng}, function(results, status){
 
         if (status == google.maps.GeocoderStatus.OK) {
             if (results[0]) //Salen 8 resultados; uno nuestra posición, la posición de nuestra provincia, país, ....
-
-            {
-                //	alert(latlng);
+            {//	alert(latlng);
                 ultimo_resultado = results[0];
                 dir = "<p><strong>localización actual: </strong>" + results[0].formatted_address + "</p>";
                 lat_actual = lat;
@@ -260,12 +215,7 @@ function initialize(lat,log) {
 
         }
 
-
-
         //element.innerHTML = dir;
-
-
-
     });
 
 }
