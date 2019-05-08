@@ -120,6 +120,9 @@ var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions )
 
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
+    var id=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
+    navigator.geolocation.clearWatch(id);
+    /*
     directionsDisplay.setDirections({routes: []});
     var watchID = navigator.geolocation.getCurrentPosition(onSuccess,
         cordova.plugins.diagnostic.getLocationAuthorizationStatus(function(status){
@@ -146,7 +149,7 @@ function carga_fichado() {
             }
 
         }, onError), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(watchID);
+    navigator.geolocation.clearWatch(watchID);*/
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
@@ -199,7 +202,7 @@ function initialize(lat,log) {
         center: latlng,
         mapTypeId: 'roadmap'
     }
-
+    map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
     marker = new google.maps.Marker({
 
         position: latlng,
