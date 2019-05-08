@@ -176,20 +176,21 @@ function initialize(lat,log) {
         center: latlng,
         mapTypeId: 'roadmap'
     }
-    map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
-    $(document).find('#map-canvas').css( 'height','500px');
+  var mapa_encontrar=  $(document).find('#map-canvas');
+    map = new google.maps.Map(mapa_encontrar,mapOptions );
+
     marker = new google.maps.Marker({
         position: latlng,
         icon: 'img/man.png',
         map: map,
         title: 'Estas aquí!'
     });
-
+mapa_encontrar.css( 'height','500px');
     /*Con esto marcamos la ruta en el mapa*/
 
     directionsDisplay.setMap(map);
     var dir="";
-    var element = document.getElementById('resultado');
+   // var element = document.getElementById('resultado');
 
     geocoder = new google.maps.Geocoder();
     geocoder.geocode({"latLng": latlng}, function(results, status){
