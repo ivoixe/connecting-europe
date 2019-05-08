@@ -105,21 +105,18 @@ var log_actual = 0;
 
 var distancia1 = 0;
 
-var map;
 
 var ultimo_resultado = {};
 
 var directionsDisplay = new google.maps.DirectionsRenderer;
 
 var directionsService = new google.maps.DirectionsService;
-var nuevo_mapa= new google.maps.event.addDomListener;
+
 var circulo =  new google.maps.Circle();
-
-
-
 var marker_nearest =new google.maps.Marker();
 
 var marker =new google.maps.Marker();
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
 
 
 
@@ -127,9 +124,6 @@ var marker =new google.maps.Marker();
 
 //Cuando conseguimos localizarnos ...
 function carga_fichado() {
-    var id=  navigator.geolocation.getCurrentPosition(onSuccess, onError, {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(id);
-    /*
     directionsDisplay.setDirections({routes: []});
     var watchID = navigator.geolocation.getCurrentPosition(onSuccess,
         cordova.plugins.diagnostic.getLocationAuthorizationStatus(function(status){
@@ -156,7 +150,7 @@ function carga_fichado() {
             }
 
         }, onError), {maximumAge: Infinity, timeout: 30000, enableHighAccuracy: true });
-    navigator.geolocation.clearWatch(watchID);*/
+    navigator.geolocation.clearWatch(watchID);
 }
 function setLugar(){
     directionsDisplay.setDirections({routes: []});
@@ -165,7 +159,11 @@ function setLugar(){
 
 function onSuccessProgress(position){
     //alert(position.coords.latitude + position.coords.longitude);
+
     guardarPosicionAtTime(position.coords.latitude,position.coords.longitude,position.coords.longitude);
+
+
+
 }
 
 function onSuccess(position) {
@@ -173,8 +171,7 @@ function onSuccess(position) {
     //alert('posicion'+position);
     //datos_portada();
     initialize(position.coords.latitude,position.coords.longitude);
-    nuevo_mapa(window, "load", initialize);
-    //guardarPosicion(position.coords.latitude,position.coords.longitude);
+    guardarPosicion(position.coords.latitude,position.coords.longitude);
     return position;
 }
 //Si algo fallase al localizarnos...
@@ -206,9 +203,7 @@ function initialize(lat,log) {
         center: latlng,
         mapTypeId: 'roadmap'
     }
-    map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions );
 
-    $('#map-canvas').css( 'height','500px');
 
     marker = new google.maps.Marker({
 
